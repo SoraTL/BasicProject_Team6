@@ -1,0 +1,293 @@
+﻿@model WebsiteGenZ.Models.ViewModels.HomeViewModel
+
+
+<div class="body">
+    <div class="banner">
+        <div class="banner-container">
+            <div class="banner-slide">
+                <img src="/media/products/banner1.jpg" alt="Banner 1">
+            </div>
+            <div class="banner-slide">
+                <img src="/media/products/banner2.jpg" alt="Banner 2">
+            </div>
+            <div class="banner-slide">
+                <img src="/media/products/banner3.jpg" alt="Banner 3">
+            </div>
+        </div>
+    </div>
+
+    <div class="sub-banner">
+        <div class="left-part">
+            <div class="top-part part-1-4 sub-banner-item">
+                <img src="/media/products/sub14.jpg" alt="">
+            </div>
+            <div class="bottom-part">
+                <div class="part-1-8 sub-banner-item">
+                    <img src="/media/products/sub18-1.jpg" alt="">
+                </div>
+                <div class="part-1-8 sub-banner-item">
+                    <img src="/media/products/sub18-2.jpg" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="right-part part-1-2 sub-banner-item">
+            <img src="/media/products/sub12.jpg" alt="">
+        </div>
+    </div>
+
+    <div class="brand-list-container">
+        <div class="brand-list">
+            <div class="browse-brand-container">
+                <div class="browse-brand">
+                    <p>Browse By Brand</p>
+                </div>
+                <div class="brand-arrows">
+                    <div class="left-arrow arrows">
+                        <i class="fas fa-chevron-left"></i>
+                    </div>
+                    <div class="right-arrow arrows">
+                        <i class="fas fa-chevron-right"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="brands-container">
+                @foreach(var brand in Model.Brands)
+                {
+                    <div class="brand-container">
+                        <div>
+                            <div class="brand-icon">
+                                @Html.Raw(brand.BrandIcon)
+                            </div>
+                            <div class="brand-title">
+                                <p>@brand.Name</p>
+                            </div>
+                        </div>
+                    </div>
+                }
+            </div>
+            
+        </div>
+    </div>
+
+  
+    <div class="product-section">
+        <div class="product-list-container">
+            <div class="product-list">
+                @foreach (var product in Model.BrandProducts)
+                {   
+                    <div class="product-container">
+                        <a style= asp-controller="Product" asp-action="Details" asp-route-productId="@product.Id">
+                            <div class="product-image-container" style="display:block;">
+                                <img src="@product.Images[0].Image" alt="@product.Name">
+                            </div>
+                            <div class="product-name">
+                                <p>@product.Name</p>
+                            </div>
+                            <div class="product-price">
+                                <p>@product.Price.ToString("N0") $</p>
+                            </div>
+                        </a>
+
+                        <form method="post" action="/Cart/AddToCart" class="add-to-cart-form">
+                            <input type="hidden" name="productId" value="@product.Id" />
+                            <input type="hidden" name="quantity" value="1" />
+                            <button type="submit" class="add-to-cart-button">Add to Cart</button>
+                        </form>
+
+                        <a href="#">
+                            <div class="like-button liked-button">
+                                <i class="fa-solid fa-heart"></i>
+                            </div>
+                        </a>
+                    </div>
+                }
+            </div>
+        </div>
+    </div>
+
+    <div class="banners">
+        <div class="sub-banners-container">
+            <div class="sub-banner-image sub-banner-1">
+                <img src="/media/products/sub-banner-4.png" alt="">
+            </div>
+            <div class="sub-banner-info-container" style="display:block;">
+                <div class="sub-banner-title">
+                    <p>Popular Products</p>
+                </div>
+                <div class="sub-banner-decription" style="display:flex; flex-direction:column;">
+                    <p>
+                        iPad combines a magnificent 10.2-inch Retina display, incredible performance, multitasking and ease of use.
+                    </p>
+                </div>
+                <a href="#">
+                    <div class="sub-banner-button">
+                        <p>Shop Now</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="sub-banners-container sub-banner-2">
+            <div class="sub-banner-image">
+                <img src="/media/products/sub-banner-4.png" alt="">
+            </div>
+            <div class="sub-banner-info-container" style="display:block;">
+                <div class="sub-banner-title">
+                    <p>Popular Products</p>
+                </div>
+                <div class="sub-banner-decription">
+                    <p>
+                        iPad combines a magnificent 10.2-inch Retina display, incredible performance, multitasking and ease of use.
+                    </p>
+                </div>
+                <a href="#">
+                    <div class="sub-banner-button">
+                        <p>Shop Now</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="sub-banners-container sub-banner-3">
+            <div class="sub-banner-image">
+                <img src="/media/products/sub-banner-4.png" alt="">
+            </div>
+            <div class="sub-banner-info-container" style="display:block;">
+                <div class="sub-banner-title">
+                    <p>Popular Products</p>
+                </div>
+                <div class="sub-banner-decription">
+                    <p>
+                        iPad combines a magnificent 10.2-inch Retina display, incredible performance, multitasking
+                        and
+                        ease of use.
+                    </p>
+                </div>
+                <a href="#">
+                    <div class="sub-banner-button">
+                        <p>Shop Now</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="sub-banners-container sub-banner-4">
+            <div class="sub-banner-image">
+                <img src="/media/products/sub-banner-4.png" alt="">
+            </div>
+            <div class="sub-banner-info-container" style="display:block;">
+                <div class="sub-banner-title">
+                    <p>Popular Products</p>
+                </div>
+                <div class="sub-banner-decription">
+                    <p>
+                        iPad combines a magnificent 10.2-inch Retina display, incredible performance, multitasking
+                        and
+                        ease of use.
+                    </p>
+                </div>
+                <a href="#">
+                    <div class="sub-banner-button">
+                        <p>Shop Now</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+
+    </div>
+    <div class="discount-list product-section">
+        <div class="product-list-container">
+            <div class="product-list-title-container">
+                <div class="product-list-title discount-list-title">
+                    <p>Discount Up To 50%</p>
+                </div>
+            </div>
+            <div class="product-list">
+                <div class="product-container">
+                    <div class="product-image-container">
+                        <img src="/media/products/Prd_Lap_1.webp" alt="">
+                    </div>
+                    <div class="product-name">
+                        <p>Macbook Air 2024 M3 13.6inch 8GB/512GB Chính Hãng Apple VN</p>
+                    </div>
+                    <div class="product-price">
+                        <p>25.280.000 VNĐ</p>
+                    </div>
+                    <a href="#">
+                        <div class="add-to-cart-button">
+                            Add To Cart
+                        </div>
+                    </a>
+                    <a href="#">
+                        <div class="like-button liked-button">
+                            <i class="fa-solid fa-heart"></i>
+                        </div>
+                    </a>
+                </div>
+                <div class="product-container">
+                    <div class="product-image-container">
+                        <img src="/media/products/Prd_hp_1.jpg" alt="">
+                    </div>
+                    <div class="product-name">
+                        <p>Macbook Air 2024 M3 13.6inch 8GB/512GB Chính Hãng Apple VN</p>
+                    </div>
+                    <div class="product-price">
+                        <p>25.280.000 VNĐ</p>
+                    </div>
+                    <a href="#">
+                        <div class="add-to-cart-button">
+                            Add To Cart
+                        </div>
+                    </a>
+                    <a href="#">
+                        <div class="like-button">
+                            <i class="fa-solid fa-heart"></i>
+                        </div>
+                    </a>
+                </div>
+                <div class="product-container">
+                    <div class="product-image-container">
+                        <img src="/media/products/Prd_Phone_1.webp" alt="">
+                    </div>
+                    <div class="product-name">
+                        <p>Macbook Air 2024 M3 13.6inch 8GB/512GB Chính Hãng Apple VN</p>
+                    </div>
+                    <div class="product-price">
+                        <p>25.280.000 VNĐ</p>
+                    </div>
+                    <a href="#">
+                        <div class="add-to-cart-button">
+                            Add To Cart
+                        </div>
+                    </a>
+                    <a href="#">
+                        <div class="like-button liked-button">
+                            <i class="fa-solid fa-heart"></i>
+                        </div>
+                    </a>
+                </div>
+                <div class="product-container">
+                    <div class="product-image-container">
+                        <img src="/media/products/Prd_Lap_1.webp" alt="">
+                    </div>
+                    <div class="product-name">
+                        <p>Macbook Air 2024 M3 13.6inch 8GB/512GB Chính Hãng Apple VN</p>
+                    </div>
+                    <div class="product-price">
+                        <p>25.280.000 VNĐ</p>
+                    </div>
+                    <a href="#">
+                        <div class="add-to-cart-button">
+                            Add To Cart
+                        </div>
+                    </a>
+                    <a href="#">
+                        <div class="like-button liked-button">
+                            <i class="fa-solid fa-heart"></i>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer-banner">
+        <img src="/media/products/footer-banner.jpg" alt="">
+    </div>
+</div>

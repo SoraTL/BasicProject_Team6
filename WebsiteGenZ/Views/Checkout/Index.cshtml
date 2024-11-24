@@ -1,0 +1,211 @@
+﻿@model WebsiteGenZ.Models.ViewModels.CheckoutViewModel
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout</title>
+    <link rel="stylesheet" href="~/css/checkout.css">
+    <script src="https://kit.fontawesome.com/385d797bd0.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="checkout-container">
+        <div class="step-indicator">
+            <div id="step1-indicator" class="step active">
+                <i class="fas fa-location-dot"></i>
+                <span>Step 1</span>
+                <p>Address</p>
+            </div>
+            <div class="line"></div>
+            <div id="step2-indicator" class="step">
+                <i class="fas fa-shipping-fast"></i>
+                <span>Step 2</span>
+                <p>Shipping</p>
+            </div>
+            <div class="line"></div>
+            <div id="step3-indicator" class="step">
+                <i class="fas fa-credit-card"></i>
+                <span>Step 3</span>
+                <p>Payment</p>
+            </div>
+        </div>
+
+        <div id="step1" class="step-content">
+            <h2>Select Address</h2>
+            <form action="#" method="post">
+                <div class="address-list">
+                    <!-- Address Item Template -->
+                    @if (Model.Addresses != null && Model.Addresses.Any())
+                    {
+                        @foreach (var address in Model.Addresses)
+                        {
+                            <div class="address-item">
+                                <label>
+                                    <input type="radio" name="selectedAddress" value="@address.Id" @(address.IsDefault ? "checked" : "")>
+                                    <div class="address-details">
+                                        <h4>@address.ReceiverName <span class="badge">HOME</span></h4>
+                                        <p>@address.Address</p>
+                                        <p>@address.PhoneNumber</p>
+                                    </div>
+                                </label>
+                                <div class="address-actions">
+                                    <button type="button" class="edit-button"><i class="fas fa-edit"></i></button>
+                                    <button type="button" class="delete-button"><i class="fas fa-times"></i></button>
+                                </div> 
+                            </div>
+                        }
+                    }
+                </div>
+
+                <!-- Add Address Button -->
+                <div class="add-address">
+                    <button type="button" class="add-button" onclick="showAddressForm()">
+                        <i class="fas fa-plus"></i> Add New Address
+                    </button>
+                </div>
+
+                <!-- Navigation Buttons -->
+                <div class="navigation-buttons">
+                    <button type="button" class="back-button">Back</button>
+                    <button type="button" class="next-button" onclick="goToStep(2)">Next</button>
+                </div>
+            </form>
+
+            <!-- Address Form (Hidden by Default) -->
+            <div id="address-form" class="address-form-container" style="display: none;">
+                <h3>Add/Edit Address</h3>
+                <form id="new-address-form" onsubmit="saveAddress(event)">
+                    <div class="form-group">
+                        <label for="receiver-name">Receiver Name</label>
+                        <input type="text" id="receiver-name" name="ReceiverName" placeholder="Enter receiver's name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="phone-number">Phone Number</label>
+                        <input type="tel" id="phone-number" name="PhoneNumber" placeholder="Enter phone number" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="address">Address</label>
+                        <textarea id="address" name="Address" placeholder="Enter address details" rows="3" required></textarea>
+                    </div>
+                    <div class="form-buttons">
+                        <button type="button" class="cancel-button" onclick="hideAddressForm()">Cancel</button>
+                        <button type="submit" class="save-button">Save Address</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <div id="step2" class="step-content">
+            <h2>Shipment Method</h2>
+            <form action="#" method="post">
+                <div class="shipping-option">
+                    <label>
+                        <input type="radio" name="shipping" checked>
+                        <div class="option-details">
+                            <span>Free</span>
+                            <p>Regular shipment</p>
+                        </div>
+                        <div class="option-date">@DateTime.Now.Date.AddDays(7).ToString("dd MMM yyyy")</div>
+                    </label>
+                </div>
+                <div class="shipping-option">
+                    <label>
+                        <input type="radio" name="shipping">
+                        <div class="option-details">
+                            <span>$8.50</span>
+                            <p>Get your delivery as soon as possible</p>
+                        </div>
+                        <div class="option-date">@DateTime.Now.Date.AddDays(3).ToString("dd MMM yyyy")</div>
+                    </label>
+                </div>
+                <div class="shipping-option">
+                    <label>
+                        <input type="radio" name="shipping">
+                        <div class="option-details">
+                            <span>Schedule</span>
+                            <p>Pick a date when you want to get your delivery</p>
+                        </div>
+                        <div class="option-date">Select Date</div>
+                    </label>
+                </div>
+                <div class="navigation-buttons">
+                    <button type="button" class="back-button" onclick="goToStep(1)">Back</button>
+                    <button type="button" class="next-button" onclick="goToStep(3)">Next</button>
+                </div>
+            </form>
+        </div>
+
+        <div id="step3" class="step-content">
+            <h2>Payment</h2>
+            <div class="payment-container">
+                <div class="summary payment-container-child">
+                    <h3>Summary</h3>
+                    <ul class="summary-list">
+                        <li>
+                            <span class="item-name">Apple iPhone 14 Pro Max 128Gb</span>
+                            <span class="item-price">$1399</span>
+                        </li>
+                        <li>
+                            <span class="item-name">AirPods Max Silver</span>
+                            <span class="item-price">$549</span>
+                        </li>
+                        <li>
+                            <span class="item-name">Apple Watch Series 9 GPS 41mm</span>
+                            <span class="item-price">$399</span>
+                        </li>
+                    </ul>
+                    <hr>
+                    <div class="summary-details">
+                        <p><strong>Address:</strong> 1131 Dusty Townline, Jacksonville, TX 40322</p>
+                        <p><strong>Shipment method:</strong> Free</p>
+                        <p><strong>Subtotal:</strong> <span class="amount">$2347</span></p>
+                        <p><strong>Estimated Tax:</strong> <span class="amount">$50</span></p>
+                        <p><strong>Estimated shipping & Handling:</strong> <span class="amount">$29</span></p>
+                        <p class="total"><strong>Total:</strong> <span class="amount">$2426</span></p>
+                    </div>
+                </div>
+
+                <div class="payment-form payment-container-child">
+                    <h3>Payment</h3>
+                    <div class="payment-tabs">
+                        <button class="active">Credit Card</button>
+
+                    </div>
+                    <div class="credit-card-form">
+
+                        <form action="#" method="post">
+                            <div class="navigation-buttons">
+                                <button type="button" class="back-button" onclick="goToStep(2)">Back</button>
+                                <button type="submit" class="next-button">Pay</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <script>
+        function goToStep(step) {
+            const allSteps = document.querySelectorAll('.step-content');
+            const allIndicators = document.querySelectorAll('.step-indicator .step');
+
+            allSteps.forEach(stepDiv => stepDiv.style.display = 'none');
+
+            allIndicators.forEach(indicator => indicator.classList.remove('active'));
+
+            document.getElementById('step' + step).style.display = 'block';
+            document.getElementById('step' + step + '-indicator').classList.add('active');
+        }
+
+        document.addEventListener("DOMContentLoaded", function () {
+            goToStep(1);
+        });
+    </script>
+</body>
+
+</html>

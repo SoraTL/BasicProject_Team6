@@ -1,0 +1,231 @@
+﻿
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smartphone Catalog</title>
+    <script src="https://kit.fontawesome.com/385d797bd0.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="~/css/product-list.css">
+    <link rel="stylesheet" href="~/css/home.css">
+</head>
+
+<body>
+    <div class="body">
+        <div class="breadcrumb">
+            <a asp-controller="Home" asp-action="Index">Home</a> >
+            @if (!string.IsNullOrEmpty(Model.Category))
+            {
+                <span class="current">@Model.Category</span>
+            }
+            else
+            {
+                <span class="current">All Products</span>
+            }
+        </div>
+        <div class="catalog-container">
+            <!-- Price Filter Section -->
+            <div class="filter-section">
+                <div class="filter">
+                    <div class="filter-header" onclick="toggleFilter('price-filter')">
+                        <span>Price</span>
+                        <span class="arrow">&#9662;</span>
+                    </div>
+                    <div id="price-filter" class="filter-content">
+                        <div class="price-range">
+                            <div class="labels">
+                                <span>From</span>
+                                <span>To</span>
+                            </div>
+                            <div class="inputs">
+                                <input type="text" id="from-price" value="0" placeholder="Min" readonly>
+                                <input type="text" id="to-price" value="2000" placeholder="Max">
+                            </div>
+                        </div>
+                        <div class="slider-container">
+                            <!-- Dual sliders for From and To with fixed ranges -->
+                            <input type="range" min="0" max="5000" value="2000" class="range-slider" id="to-range">
+                        </div>
+                    </div>
+                </div>
+                <div class="filter">
+                    <!-- Filter Header -->
+                    <div class="filter-header" onclick="toggleFilter('brand-filter')">
+                        <span class="filter-title">Brand</span>
+                        <span class="filter-arrow">&#9662;</span>
+                    </div>
+                    <!-- Filter Content -->
+                    <div id="brand-filter" class="filter-content">
+                        <!-- Search Box -->
+                        <div class="search-box">
+                            <input type="text" class="search-input" placeholder="Search" oninput="filterItems('brand-filter')">
+                        </div>
+                        <!-- Checkbox List -->
+                        <div class="checkbox-list" data-simplebar>
+                            @foreach (var brand in Model.Brands)
+                            {
+                                <label class="checkbox-item">
+                                    <input type="checkbox" class="checkbox-input" value="@brand.Name">
+                                    <span class="checkbox-label">@brand.Name</span>
+                                    <span class="count" data-brand-id="@brand.Id">1</span>
+                                </label>
+                            }
+                        </div>
+                    </div>
+                </div>
+
+                <div class="filter">
+                    <div class="filter-header" onclick="toggleFilter('category-filter')">
+                        <span class="filter-title">Category</span>
+                        <span class="filter-arrow">&#9662;</span>
+                    </div>
+                    <div id="category-filter" class="filter-content">
+                        <div class="search-box">
+                            <input type="text" class="search-input" placeholder="Search" oninput="filterItems('category-filter')">
+                        </div>
+                        <div class="checkbox-list" data-simplebar>
+                            @foreach (var category in Model.Categories)
+                            {
+                                <label class="checkbox-item">
+                                    <input type="checkbox" class="checkbox-input" value="@category.Name">
+                                    <span class="checkbox-label">@category.Name</span>
+                                    <span class="count" data-category-id="@category.Id">1</span>
+                                </label>
+                            }
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+            <div class="discount-list product-section">
+                <div class="product-list-container">
+                    <div class="product-list">
+                        @foreach (var product in Model.Products ?? Enumerable.Empty<ProductModel>())
+                        {
+                            if (product != null)
+                            {
+                                <div class="product-container">
+                                    <div class="product-image-container">
+                                        @if (product.Images != null)
+                                        {
+                                            <img src="@product.Images[0].Image" alt="@product.Name">
+                                        }
+                                        else
+                                        {
+                                            <img src="/images/default-product.png" alt="No Image Available">
+                                        }
+                                    </div>
+                                    <div class="product-name">
+                                        <p>@(product.Name ?? "Unknown Product")</p>
+                                    </div>
+                                    <div class="product-price">
+                                        <p>@product.Price.ToString("C")</p>
+                                    </div>
+                                    <a href="@Url.Action("Details", "Product", new { id = product.Id })">
+                                        <div class="add-to-cart-button">
+                                            Add To Cart
+                                        </div>
+                                    </a>
+                                    <a href="#">
+                                        <div class="like-button">
+                                            <i class="fa-solid fa-heart"></i>
+                                        </div>
+                                    </a>
+                                </div>
+                            }
+                        }
+                    </div>
+
+                    <!-- Pagination -->
+                    <div class="pagination">
+                        @if (Model.CurrentPage > 1)
+                        {
+                            <button class="pagination-arrow" onclick="location.href='@Url.Action("Index", "Category", new { page = Model.CurrentPage - 1 })'">&lt;</button>
+                        }
+                        else
+                        {
+                            <button class="pagination-arrow" disabled>&lt;</button>
+                        }
+
+                        @for (int i = 1; i <= Model.TotalPages; i++)
+                        {
+                            if (i == Model.CurrentPage)
+                            {
+                                <button class="pagination-page active">@i</button>
+                            }
+                            else
+                            {
+                                <button class="pagination-page" onclick="location.href='@Url.Action("Index", "Category", new { page = @i })'">@i</button>
+                            }
+                        }
+
+                        @if (Model.CurrentPage < Model.TotalPages)
+                        {
+                            <button class="pagination-arrow" onclick="location.href='@Url.Action("Index", "Category", new { page = Model.CurrentPage + 1 })'">&gt;</button>
+                        }
+                        else
+                        {
+                            <button class="pagination-arrow" disabled>&gt;</button>
+                        }
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+    <script src="~/scripts/product-list.js"></script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            // Add event listeners to all filter elements
+            const brandCheckboxes = document.querySelectorAll(".brand-checkbox");
+            const categoryDropdown = document.querySelector("#category-filter");
+            const fromPriceInput = document.querySelector("#from-price");
+            const toPriceInput = document.querySelector("#to-price");
+
+            // Attach event listeners to filter elements
+            brandCheckboxes.forEach(checkbox => {
+                checkbox.addEventListener("change", applyFilters);
+            });
+            categoryDropdown.addEventListener("change", applyFilters);
+            fromPriceInput.addEventListener("input", applyFilters);
+            toPriceInput.addEventListener("input", applyFilters);
+
+            // Function to apply filters
+            function applyFilters() {
+                // Collect all selected filters
+                const selectedBrandIds = Array.from(brandCheckboxes)
+                    .filter(checkbox => checkbox.checked)
+                    .map(checkbox => checkbox.value);
+
+                const category = categoryDropdown.value;
+                const fromPrice = fromPriceInput.value;
+                const toPrice = toPriceInput.value;
+
+                // Prepare request parameters
+                const params = new URLSearchParams();
+                if (category) params.append("category", category);
+                if (selectedBrandIds.length > 0) params.append("selectedBrandIds", selectedBrandIds.join(","));
+                if (fromPrice) params.append("fromPrice", fromPrice);
+                if (toPrice) params.append("toPrice", toPrice);
+
+                // Send AJAX request to backend
+                fetch(`/Product/Index?${params.toString()}`, {
+                    method: "GET"
+                })
+                    .then(response => response.text())
+                    .then(html => {
+                        // Update the product list container
+                        document.querySelector(".product-list-container").innerHTML = html;
+                    })
+                    .catch(error => console.error("Error:", error));
+            }
+        });
+    </script>
+
+
+</body>
+
+</html>

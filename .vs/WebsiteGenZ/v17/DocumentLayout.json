@@ -1,0 +1,957 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\USER\\OneDrive\\Documents\\WebsiteGenZ\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1E83C4AB-1C58-4F63-91B8-E47B7175046D}|WebsiteGenZ\\WebsiteGenZ.csproj|c:\\users\\user\\onedrive\\documents\\websitegenz\\websitegenz\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E83C4AB-1C58-4F63-91B8-E47B7175046D}|WebsiteGenZ\\WebsiteGenZ.csproj|solutionrelative:websitegenz\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E83C4AB-1C58-4F63-91B8-E47B7175046D}|WebsiteGenZ\\WebsiteGenZ.csproj|c:\\users\\user\\onedrive\\documents\\websitegenz\\websitegenz\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1E83C4AB-1C58-4F63-91B8-E47B7175046D}|WebsiteGenZ\\WebsiteGenZ.csproj|solutionrelative:websitegenz\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E83C4AB-1C58-4F63-91B8-E47B7175046D}|WebsiteGenZ\\WebsiteGenZ.csproj|c:\\users\\user\\onedrive\\documents\\websitegenz\\websitegenz\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{1E83C4AB-1C58-4F63-91B8-E47B7175046D}|WebsiteGenZ\\WebsiteGenZ.csproj|solutionrelative:websitegenz\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E83C4AB-1C58-4F63-91B8-E47B7175046D}|WebsiteGenZ\\WebsiteGenZ.csproj|c:\\users\\user\\onedrive\\documents\\websitegenz\\websitegenz\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{1E83C4AB-1C58-4F63-91B8-E47B7175046D}|WebsiteGenZ\\WebsiteGenZ.csproj|solutionrelative:websitegenz\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E83C4AB-1C58-4F63-91B8-E47B7175046D}|WebsiteGenZ\\WebsiteGenZ.csproj|c:\\users\\user\\onedrive\\documents\\websitegenz\\websitegenz\\views\\account\\forgotpassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1E83C4AB-1C58-4F63-91B8-E47B7175046D}|WebsiteGenZ\\WebsiteGenZ.csproj|solutionrelative:websitegenz\\views\\account\\forgotpassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E83C4AB-1C58-4F63-91B8-E47B7175046D}|WebsiteGenZ\\WebsiteGenZ.csproj|c:\\users\\user\\onedrive\\documents\\websitegenz\\websitegenz\\models\\appuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E83C4AB-1C58-4F63-91B8-E47B7175046D}|WebsiteGenZ\\WebsiteGenZ.csproj|solutionrelative:websitegenz\\models\\appuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E83C4AB-1C58-4F63-91B8-E47B7175046D}|WebsiteGenZ\\WebsiteGenZ.csproj|c:\\users\\user\\onedrive\\documents\\websitegenz\\websitegenz\\models\\categorymodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E83C4AB-1C58-4F63-91B8-E47B7175046D}|WebsiteGenZ\\WebsiteGenZ.csproj|solutionrelative:websitegenz\\models\\categorymodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E83C4AB-1C58-4F63-91B8-E47B7175046D}|WebsiteGenZ\\WebsiteGenZ.csproj|c:\\users\\user\\onedrive\\documents\\websitegenz\\websitegenz\\models\\cartmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E83C4AB-1C58-4F63-91B8-E47B7175046D}|WebsiteGenZ\\WebsiteGenZ.csproj|solutionrelative:websitegenz\\models\\cartmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E83C4AB-1C58-4F63-91B8-E47B7175046D}|WebsiteGenZ\\WebsiteGenZ.csproj|c:\\users\\user\\onedrive\\documents\\websitegenz\\websitegenz\\models\\brandmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E83C4AB-1C58-4F63-91B8-E47B7175046D}|WebsiteGenZ\\WebsiteGenZ.csproj|solutionrelative:websitegenz\\models\\brandmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E83C4AB-1C58-4F63-91B8-E47B7175046D}|WebsiteGenZ\\WebsiteGenZ.csproj|c:\\users\\user\\onedrive\\documents\\websitegenz\\websitegenz\\areas\\admin\\views\\homeadmin\\account.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1E83C4AB-1C58-4F63-91B8-E47B7175046D}|WebsiteGenZ\\WebsiteGenZ.csproj|solutionrelative:websitegenz\\areas\\admin\\views\\homeadmin\\account.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E83C4AB-1C58-4F63-91B8-E47B7175046D}|WebsiteGenZ\\WebsiteGenZ.csproj|c:\\users\\user\\onedrive\\documents\\websitegenz\\websitegenz\\areas\\admin\\views\\homeadmin\\addnewproduct.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1E83C4AB-1C58-4F63-91B8-E47B7175046D}|WebsiteGenZ\\WebsiteGenZ.csproj|solutionrelative:websitegenz\\areas\\admin\\views\\homeadmin\\addnewproduct.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E83C4AB-1C58-4F63-91B8-E47B7175046D}|WebsiteGenZ\\WebsiteGenZ.csproj|c:\\users\\user\\onedrive\\documents\\websitegenz\\websitegenz\\areas\\admin\\views\\homeadmin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1E83C4AB-1C58-4F63-91B8-E47B7175046D}|WebsiteGenZ\\WebsiteGenZ.csproj|solutionrelative:websitegenz\\areas\\admin\\views\\homeadmin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E83C4AB-1C58-4F63-91B8-E47B7175046D}|WebsiteGenZ\\WebsiteGenZ.csproj|c:\\users\\user\\onedrive\\documents\\websitegenz\\websitegenz\\areas\\admin\\views\\homeadmin\\product.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1E83C4AB-1C58-4F63-91B8-E47B7175046D}|WebsiteGenZ\\WebsiteGenZ.csproj|solutionrelative:websitegenz\\areas\\admin\\views\\homeadmin\\product.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E83C4AB-1C58-4F63-91B8-E47B7175046D}|WebsiteGenZ\\WebsiteGenZ.csproj|c:\\users\\user\\onedrive\\documents\\websitegenz\\websitegenz\\models\\addressmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E83C4AB-1C58-4F63-91B8-E47B7175046D}|WebsiteGenZ\\WebsiteGenZ.csproj|solutionrelative:websitegenz\\models\\addressmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E83C4AB-1C58-4F63-91B8-E47B7175046D}|WebsiteGenZ\\WebsiteGenZ.csproj|c:\\users\\user\\onedrive\\documents\\websitegenz\\websitegenz\\models\\cartitemmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E83C4AB-1C58-4F63-91B8-E47B7175046D}|WebsiteGenZ\\WebsiteGenZ.csproj|solutionrelative:websitegenz\\models\\cartitemmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E83C4AB-1C58-4F63-91B8-E47B7175046D}|WebsiteGenZ\\WebsiteGenZ.csproj|c:\\users\\user\\onedrive\\documents\\websitegenz\\websitegenz\\wwwroot\\css\\forgot-password.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{1E83C4AB-1C58-4F63-91B8-E47B7175046D}|WebsiteGenZ\\WebsiteGenZ.csproj|solutionrelative:websitegenz\\wwwroot\\css\\forgot-password.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E83C4AB-1C58-4F63-91B8-E47B7175046D}|WebsiteGenZ\\WebsiteGenZ.csproj|c:\\users\\user\\onedrive\\documents\\websitegenz\\websitegenz\\views\\category\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1E83C4AB-1C58-4F63-91B8-E47B7175046D}|WebsiteGenZ\\WebsiteGenZ.csproj|solutionrelative:websitegenz\\views\\category\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E83C4AB-1C58-4F63-91B8-E47B7175046D}|WebsiteGenZ\\WebsiteGenZ.csproj|c:\\users\\user\\onedrive\\documents\\websitegenz\\websitegenz\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E83C4AB-1C58-4F63-91B8-E47B7175046D}|WebsiteGenZ\\WebsiteGenZ.csproj|solutionrelative:websitegenz\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E83C4AB-1C58-4F63-91B8-E47B7175046D}|WebsiteGenZ\\WebsiteGenZ.csproj|c:\\users\\user\\onedrive\\documents\\websitegenz\\websitegenz\\models\\viewmodels\\homeviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E83C4AB-1C58-4F63-91B8-E47B7175046D}|WebsiteGenZ\\WebsiteGenZ.csproj|solutionrelative:websitegenz\\models\\viewmodels\\homeviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E83C4AB-1C58-4F63-91B8-E47B7175046D}|WebsiteGenZ\\WebsiteGenZ.csproj|c:\\users\\user\\onedrive\\documents\\websitegenz\\websitegenz\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1E83C4AB-1C58-4F63-91B8-E47B7175046D}|WebsiteGenZ\\WebsiteGenZ.csproj|solutionrelative:websitegenz\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E83C4AB-1C58-4F63-91B8-E47B7175046D}|WebsiteGenZ\\WebsiteGenZ.csproj|c:\\users\\user\\onedrive\\documents\\websitegenz\\websitegenz\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1E83C4AB-1C58-4F63-91B8-E47B7175046D}|WebsiteGenZ\\WebsiteGenZ.csproj|solutionrelative:websitegenz\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E83C4AB-1C58-4F63-91B8-E47B7175046D}|WebsiteGenZ\\WebsiteGenZ.csproj|c:\\users\\user\\onedrive\\documents\\websitegenz\\websitegenz\\areas\\admin\\controllers\\homeadmincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E83C4AB-1C58-4F63-91B8-E47B7175046D}|WebsiteGenZ\\WebsiteGenZ.csproj|solutionrelative:websitegenz\\areas\\admin\\controllers\\homeadmincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E83C4AB-1C58-4F63-91B8-E47B7175046D}|WebsiteGenZ\\WebsiteGenZ.csproj|c:\\users\\user\\onedrive\\documents\\websitegenz\\websitegenz\\models\\viewmodels\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E83C4AB-1C58-4F63-91B8-E47B7175046D}|WebsiteGenZ\\WebsiteGenZ.csproj|solutionrelative:websitegenz\\models\\viewmodels\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E83C4AB-1C58-4F63-91B8-E47B7175046D}|WebsiteGenZ\\WebsiteGenZ.csproj|c:\\users\\user\\onedrive\\documents\\websitegenz\\websitegenz\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E83C4AB-1C58-4F63-91B8-E47B7175046D}|WebsiteGenZ\\WebsiteGenZ.csproj|solutionrelative:websitegenz\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E83C4AB-1C58-4F63-91B8-E47B7175046D}|WebsiteGenZ\\WebsiteGenZ.csproj|c:\\users\\user\\onedrive\\documents\\websitegenz\\websitegenz\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E83C4AB-1C58-4F63-91B8-E47B7175046D}|WebsiteGenZ\\WebsiteGenZ.csproj|solutionrelative:websitegenz\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E83C4AB-1C58-4F63-91B8-E47B7175046D}|WebsiteGenZ\\WebsiteGenZ.csproj|c:\\users\\user\\onedrive\\documents\\websitegenz\\websitegenz\\controllers\\checkoutcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E83C4AB-1C58-4F63-91B8-E47B7175046D}|WebsiteGenZ\\WebsiteGenZ.csproj|solutionrelative:websitegenz\\controllers\\checkoutcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E83C4AB-1C58-4F63-91B8-E47B7175046D}|WebsiteGenZ\\WebsiteGenZ.csproj|c:\\users\\user\\onedrive\\documents\\websitegenz\\websitegenz\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E83C4AB-1C58-4F63-91B8-E47B7175046D}|WebsiteGenZ\\WebsiteGenZ.csproj|solutionrelative:websitegenz\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E83C4AB-1C58-4F63-91B8-E47B7175046D}|WebsiteGenZ\\WebsiteGenZ.csproj|c:\\users\\user\\onedrive\\documents\\websitegenz\\websitegenz\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E83C4AB-1C58-4F63-91B8-E47B7175046D}|WebsiteGenZ\\WebsiteGenZ.csproj|solutionrelative:websitegenz\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E83C4AB-1C58-4F63-91B8-E47B7175046D}|WebsiteGenZ\\WebsiteGenZ.csproj|c:\\users\\user\\onedrive\\documents\\websitegenz\\websitegenz\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1E83C4AB-1C58-4F63-91B8-E47B7175046D}|WebsiteGenZ\\WebsiteGenZ.csproj|solutionrelative:websitegenz\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E83C4AB-1C58-4F63-91B8-E47B7175046D}|WebsiteGenZ\\WebsiteGenZ.csproj|c:\\users\\user\\onedrive\\documents\\websitegenz\\websitegenz\\scaffoldingreadme.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{1E83C4AB-1C58-4F63-91B8-E47B7175046D}|WebsiteGenZ\\WebsiteGenZ.csproj|solutionrelative:websitegenz\\scaffoldingreadme.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E83C4AB-1C58-4F63-91B8-E47B7175046D}|WebsiteGenZ\\WebsiteGenZ.csproj|c:\\users\\user\\onedrive\\documents\\websitegenz\\websitegenz\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1E83C4AB-1C58-4F63-91B8-E47B7175046D}|WebsiteGenZ\\WebsiteGenZ.csproj|solutionrelative:websitegenz\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E83C4AB-1C58-4F63-91B8-E47B7175046D}|WebsiteGenZ\\WebsiteGenZ.csproj|c:\\users\\user\\onedrive\\documents\\websitegenz\\websitegenz\\models\\viewmodels\\resetpasswordmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E83C4AB-1C58-4F63-91B8-E47B7175046D}|WebsiteGenZ\\WebsiteGenZ.csproj|solutionrelative:websitegenz\\models\\viewmodels\\resetpasswordmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E83C4AB-1C58-4F63-91B8-E47B7175046D}|WebsiteGenZ\\WebsiteGenZ.csproj|c:\\users\\user\\onedrive\\documents\\websitegenz\\websitegenz\\models\\viewmodels\\forgotpasswordmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E83C4AB-1C58-4F63-91B8-E47B7175046D}|WebsiteGenZ\\WebsiteGenZ.csproj|solutionrelative:websitegenz\\models\\viewmodels\\forgotpasswordmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E83C4AB-1C58-4F63-91B8-E47B7175046D}|WebsiteGenZ\\WebsiteGenZ.csproj|c:\\users\\user\\onedrive\\documents\\websitegenz\\websitegenz\\models\\viewmodels\\productdetailsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E83C4AB-1C58-4F63-91B8-E47B7175046D}|WebsiteGenZ\\WebsiteGenZ.csproj|solutionrelative:websitegenz\\models\\viewmodels\\productdetailsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E83C4AB-1C58-4F63-91B8-E47B7175046D}|WebsiteGenZ\\WebsiteGenZ.csproj|c:\\users\\user\\onedrive\\documents\\websitegenz\\websitegenz\\areas\\admin\\repository\\emailsender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E83C4AB-1C58-4F63-91B8-E47B7175046D}|WebsiteGenZ\\WebsiteGenZ.csproj|solutionrelative:websitegenz\\areas\\admin\\repository\\emailsender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E83C4AB-1C58-4F63-91B8-E47B7175046D}|WebsiteGenZ\\WebsiteGenZ.csproj|c:\\users\\user\\onedrive\\documents\\websitegenz\\websitegenz\\areas\\admin\\repository\\iemailsender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E83C4AB-1C58-4F63-91B8-E47B7175046D}|WebsiteGenZ\\WebsiteGenZ.csproj|solutionrelative:websitegenz\\areas\\admin\\repository\\iemailsender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E83C4AB-1C58-4F63-91B8-E47B7175046D}|WebsiteGenZ\\WebsiteGenZ.csproj|c:\\users\\user\\onedrive\\documents\\websitegenz\\websitegenz\\views\\checkout\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1E83C4AB-1C58-4F63-91B8-E47B7175046D}|WebsiteGenZ\\WebsiteGenZ.csproj|solutionrelative:websitegenz\\views\\checkout\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E83C4AB-1C58-4F63-91B8-E47B7175046D}|WebsiteGenZ\\WebsiteGenZ.csproj|c:\\users\\user\\onedrive\\documents\\websitegenz\\websitegenz\\views\\checkout\\checkout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1E83C4AB-1C58-4F63-91B8-E47B7175046D}|WebsiteGenZ\\WebsiteGenZ.csproj|solutionrelative:websitegenz\\views\\checkout\\checkout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E83C4AB-1C58-4F63-91B8-E47B7175046D}|WebsiteGenZ\\WebsiteGenZ.csproj|c:\\users\\user\\onedrive\\documents\\websitegenz\\websitegenz\\models\\viewmodels\\cartviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E83C4AB-1C58-4F63-91B8-E47B7175046D}|WebsiteGenZ\\WebsiteGenZ.csproj|solutionrelative:websitegenz\\models\\viewmodels\\cartviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E83C4AB-1C58-4F63-91B8-E47B7175046D}|WebsiteGenZ\\WebsiteGenZ.csproj|c:\\users\\user\\onedrive\\documents\\websitegenz\\websitegenz\\repository\\datacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E83C4AB-1C58-4F63-91B8-E47B7175046D}|WebsiteGenZ\\WebsiteGenZ.csproj|solutionrelative:websitegenz\\repository\\datacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E83C4AB-1C58-4F63-91B8-E47B7175046D}|WebsiteGenZ\\WebsiteGenZ.csproj|c:\\users\\user\\onedrive\\documents\\websitegenz\\websitegenz\\models\\viewmodels\\checkoutviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E83C4AB-1C58-4F63-91B8-E47B7175046D}|WebsiteGenZ\\WebsiteGenZ.csproj|solutionrelative:websitegenz\\models\\viewmodels\\checkoutviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E83C4AB-1C58-4F63-91B8-E47B7175046D}|WebsiteGenZ\\WebsiteGenZ.csproj|c:\\users\\user\\onedrive\\documents\\websitegenz\\websitegenz\\models\\viewmodels\\productlistviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E83C4AB-1C58-4F63-91B8-E47B7175046D}|WebsiteGenZ\\WebsiteGenZ.csproj|solutionrelative:websitegenz\\models\\viewmodels\\productlistviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E83C4AB-1C58-4F63-91B8-E47B7175046D}|WebsiteGenZ\\WebsiteGenZ.csproj|c:\\users\\user\\onedrive\\documents\\websitegenz\\websitegenz\\models\\viewmodels\\registerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E83C4AB-1C58-4F63-91B8-E47B7175046D}|WebsiteGenZ\\WebsiteGenZ.csproj|solutionrelative:websitegenz\\models\\viewmodels\\registerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E83C4AB-1C58-4F63-91B8-E47B7175046D}|WebsiteGenZ\\WebsiteGenZ.csproj|c:\\users\\user\\onedrive\\documents\\websitegenz\\websitegenz\\repository\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E83C4AB-1C58-4F63-91B8-E47B7175046D}|WebsiteGenZ\\WebsiteGenZ.csproj|solutionrelative:websitegenz\\repository\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E83C4AB-1C58-4F63-91B8-E47B7175046D}|WebsiteGenZ\\WebsiteGenZ.csproj|c:\\users\\user\\onedrive\\documents\\websitegenz\\websitegenz\\models\\orderdetailsmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E83C4AB-1C58-4F63-91B8-E47B7175046D}|WebsiteGenZ\\WebsiteGenZ.csproj|solutionrelative:websitegenz\\models\\orderdetailsmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E83C4AB-1C58-4F63-91B8-E47B7175046D}|WebsiteGenZ\\WebsiteGenZ.csproj|c:\\users\\user\\onedrive\\documents\\websitegenz\\websitegenz\\models\\paymentmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E83C4AB-1C58-4F63-91B8-E47B7175046D}|WebsiteGenZ\\WebsiteGenZ.csproj|solutionrelative:websitegenz\\models\\paymentmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E83C4AB-1C58-4F63-91B8-E47B7175046D}|WebsiteGenZ\\WebsiteGenZ.csproj|c:\\users\\user\\onedrive\\documents\\websitegenz\\websitegenz\\models\\ordermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E83C4AB-1C58-4F63-91B8-E47B7175046D}|WebsiteGenZ\\WebsiteGenZ.csproj|solutionrelative:websitegenz\\models\\ordermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E83C4AB-1C58-4F63-91B8-E47B7175046D}|WebsiteGenZ\\WebsiteGenZ.csproj|c:\\users\\user\\onedrive\\documents\\websitegenz\\websitegenz\\models\\shippingmethodmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E83C4AB-1C58-4F63-91B8-E47B7175046D}|WebsiteGenZ\\WebsiteGenZ.csproj|solutionrelative:websitegenz\\models\\shippingmethodmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E83C4AB-1C58-4F63-91B8-E47B7175046D}|WebsiteGenZ\\WebsiteGenZ.csproj|c:\\users\\user\\onedrive\\documents\\websitegenz\\websitegenz\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1E83C4AB-1C58-4F63-91B8-E47B7175046D}|WebsiteGenZ\\WebsiteGenZ.csproj|solutionrelative:websitegenz\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E83C4AB-1C58-4F63-91B8-E47B7175046D}|WebsiteGenZ\\WebsiteGenZ.csproj|c:\\users\\user\\onedrive\\documents\\websitegenz\\websitegenz\\services\\imageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E83C4AB-1C58-4F63-91B8-E47B7175046D}|WebsiteGenZ\\WebsiteGenZ.csproj|solutionrelative:websitegenz\\services\\imageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E83C4AB-1C58-4F63-91B8-E47B7175046D}|WebsiteGenZ\\WebsiteGenZ.csproj|c:\\users\\user\\onedrive\\documents\\websitegenz\\websitegenz\\wwwroot\\css\\checkout.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{1E83C4AB-1C58-4F63-91B8-E47B7175046D}|WebsiteGenZ\\WebsiteGenZ.csproj|solutionrelative:websitegenz\\wwwroot\\css\\checkout.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E83C4AB-1C58-4F63-91B8-E47B7175046D}|WebsiteGenZ\\WebsiteGenZ.csproj|c:\\users\\user\\onedrive\\documents\\websitegenz\\websitegenz\\models\\productmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E83C4AB-1C58-4F63-91B8-E47B7175046D}|WebsiteGenZ\\WebsiteGenZ.csproj|solutionrelative:websitegenz\\models\\productmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E83C4AB-1C58-4F63-91B8-E47B7175046D}|WebsiteGenZ\\WebsiteGenZ.csproj|c:\\users\\user\\onedrive\\documents\\websitegenz\\websitegenz\\models\\wishlistitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E83C4AB-1C58-4F63-91B8-E47B7175046D}|WebsiteGenZ\\WebsiteGenZ.csproj|solutionrelative:websitegenz\\models\\wishlistitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E83C4AB-1C58-4F63-91B8-E47B7175046D}|WebsiteGenZ\\WebsiteGenZ.csproj|c:\\users\\user\\onedrive\\documents\\websitegenz\\websitegenz\\models\\wishlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E83C4AB-1C58-4F63-91B8-E47B7175046D}|WebsiteGenZ\\WebsiteGenZ.csproj|solutionrelative:websitegenz\\models\\wishlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E83C4AB-1C58-4F63-91B8-E47B7175046D}|WebsiteGenZ\\WebsiteGenZ.csproj|c:\\users\\user\\onedrive\\documents\\websitegenz\\websitegenz\\models\\subinfomodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E83C4AB-1C58-4F63-91B8-E47B7175046D}|WebsiteGenZ\\WebsiteGenZ.csproj|solutionrelative:websitegenz\\models\\subinfomodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E83C4AB-1C58-4F63-91B8-E47B7175046D}|WebsiteGenZ\\WebsiteGenZ.csproj|c:\\users\\user\\onedrive\\documents\\websitegenz\\websitegenz\\models\\product_colormodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E83C4AB-1C58-4F63-91B8-E47B7175046D}|WebsiteGenZ\\WebsiteGenZ.csproj|solutionrelative:websitegenz\\models\\product_colormodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E83C4AB-1C58-4F63-91B8-E47B7175046D}|WebsiteGenZ\\WebsiteGenZ.csproj|c:\\users\\user\\onedrive\\documents\\websitegenz\\websitegenz\\migrations\\20241122114604_hhh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E83C4AB-1C58-4F63-91B8-E47B7175046D}|WebsiteGenZ\\WebsiteGenZ.csproj|solutionrelative:websitegenz\\migrations\\20241122114604_hhh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 329,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CartModel.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\OneDrive\\Documents\\WebsiteGenZ\\WebsiteGenZ\\Models\\CartModel.cs",
+              "RelativeDocumentMoniker": "WebsiteGenZ\\Models\\CartModel.cs",
+              "ToolTip": "C:\\Users\\USER\\OneDrive\\Documents\\WebsiteGenZ\\WebsiteGenZ\\Models\\CartModel.cs",
+              "RelativeToolTip": "WebsiteGenZ\\Models\\CartModel.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA8AAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-21T21:21:16.198Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "BrandModel.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\OneDrive\\Documents\\WebsiteGenZ\\WebsiteGenZ\\Models\\BrandModel.cs",
+              "RelativeDocumentMoniker": "WebsiteGenZ\\Models\\BrandModel.cs",
+              "ToolTip": "C:\\Users\\USER\\OneDrive\\Documents\\WebsiteGenZ\\WebsiteGenZ\\Models\\BrandModel.cs",
+              "RelativeToolTip": "WebsiteGenZ\\Models\\BrandModel.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAwBQAAABUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-22T10:47:22.918Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\OneDrive\\Documents\\WebsiteGenZ\\WebsiteGenZ\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "WebsiteGenZ\\Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Users\\USER\\OneDrive\\Documents\\WebsiteGenZ\\WebsiteGenZ\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "WebsiteGenZ\\Controllers\\AccountController.cs",
+              "ViewState": "AQIAABYAAAAAAAAAAAAgwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-20T23:16:52.751Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ForgotPassword.cshtml",
+              "DocumentMoniker": "C:\\Users\\USER\\OneDrive\\Documents\\WebsiteGenZ\\WebsiteGenZ\\Views\\Account\\ForgotPassword.cshtml",
+              "RelativeDocumentMoniker": "WebsiteGenZ\\Views\\Account\\ForgotPassword.cshtml",
+              "ToolTip": "C:\\Users\\USER\\OneDrive\\Documents\\WebsiteGenZ\\WebsiteGenZ\\Views\\Account\\ForgotPassword.cshtml",
+              "RelativeToolTip": "WebsiteGenZ\\Views\\Account\\ForgotPassword.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-22T00:22:49.459Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "AddNewProduct.cshtml",
+              "DocumentMoniker": "C:\\Users\\USER\\OneDrive\\Documents\\WebsiteGenZ\\WebsiteGenZ\\Areas\\Admin\\Views\\HomeAdmin\\AddNewProduct.cshtml",
+              "RelativeDocumentMoniker": "WebsiteGenZ\\Areas\\Admin\\Views\\HomeAdmin\\AddNewProduct.cshtml",
+              "ToolTip": "C:\\Users\\USER\\OneDrive\\Documents\\WebsiteGenZ\\WebsiteGenZ\\Areas\\Admin\\Views\\HomeAdmin\\AddNewProduct.cshtml",
+              "RelativeToolTip": "WebsiteGenZ\\Areas\\Admin\\Views\\HomeAdmin\\AddNewProduct.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-22T10:49:01.384Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\USER\\OneDrive\\Documents\\WebsiteGenZ\\WebsiteGenZ\\Areas\\Admin\\Views\\HomeAdmin\\Index.cshtml",
+              "RelativeDocumentMoniker": "WebsiteGenZ\\Areas\\Admin\\Views\\HomeAdmin\\Index.cshtml",
+              "ToolTip": "C:\\Users\\USER\\OneDrive\\Documents\\WebsiteGenZ\\WebsiteGenZ\\Areas\\Admin\\Views\\HomeAdmin\\Index.cshtml",
+              "RelativeToolTip": "WebsiteGenZ\\Areas\\Admin\\Views\\HomeAdmin\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-22T10:48:59.921Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CategoryModel.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\OneDrive\\Documents\\WebsiteGenZ\\WebsiteGenZ\\Models\\CategoryModel.cs",
+              "RelativeDocumentMoniker": "WebsiteGenZ\\Models\\CategoryModel.cs",
+              "ToolTip": "C:\\Users\\USER\\OneDrive\\Documents\\WebsiteGenZ\\WebsiteGenZ\\Models\\CategoryModel.cs",
+              "RelativeToolTip": "WebsiteGenZ\\Models\\CategoryModel.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAwBMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-22T10:48:29.902Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\USER\\OneDrive\\Documents\\WebsiteGenZ\\WebsiteGenZ\\appsettings.json",
+              "RelativeDocumentMoniker": "WebsiteGenZ\\appsettings.json",
+              "ToolTip": "C:\\Users\\USER\\OneDrive\\Documents\\WebsiteGenZ\\WebsiteGenZ\\appsettings.json",
+              "RelativeToolTip": "WebsiteGenZ\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-11-21T23:07:46.753Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AppUser.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\OneDrive\\Documents\\WebsiteGenZ\\WebsiteGenZ\\Models\\AppUser.cs",
+              "RelativeDocumentMoniker": "WebsiteGenZ\\Models\\AppUser.cs",
+              "ToolTip": "C:\\Users\\USER\\OneDrive\\Documents\\WebsiteGenZ\\WebsiteGenZ\\Models\\AppUser.cs",
+              "RelativeToolTip": "WebsiteGenZ\\Models\\AppUser.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAUwBAAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-22T11:04:02.339Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\USER\\OneDrive\\Documents\\WebsiteGenZ\\WebsiteGenZ\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "WebsiteGenZ\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\USER\\OneDrive\\Documents\\WebsiteGenZ\\WebsiteGenZ\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "WebsiteGenZ\\Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAACAAAAAAAAAAAAAowDUAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-20T23:24:14.914Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Account.cshtml",
+              "DocumentMoniker": "C:\\Users\\USER\\OneDrive\\Documents\\WebsiteGenZ\\WebsiteGenZ\\Areas\\Admin\\Views\\HomeAdmin\\Account.cshtml",
+              "RelativeDocumentMoniker": "WebsiteGenZ\\Areas\\Admin\\Views\\HomeAdmin\\Account.cshtml",
+              "ToolTip": "C:\\Users\\USER\\OneDrive\\Documents\\WebsiteGenZ\\WebsiteGenZ\\Areas\\Admin\\Views\\HomeAdmin\\Account.cshtml",
+              "RelativeToolTip": "WebsiteGenZ\\Areas\\Admin\\Views\\HomeAdmin\\Account.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-22T10:49:02.063Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "20241122114604_hhh.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\OneDrive\\Documents\\WebsiteGenZ\\WebsiteGenZ\\Migrations\\20241122114604_hhh.cs",
+              "RelativeDocumentMoniker": "WebsiteGenZ\\Migrations\\20241122114604_hhh.cs",
+              "ToolTip": "C:\\Users\\USER\\OneDrive\\Documents\\WebsiteGenZ\\WebsiteGenZ\\Migrations\\20241122114604_hhh.cs",
+              "RelativeToolTip": "WebsiteGenZ\\Migrations\\20241122114604_hhh.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-22T11:46:04.843Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\USER\\OneDrive\\Documents\\WebsiteGenZ\\WebsiteGenZ\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "WebsiteGenZ\\appsettings.Development.json",
+              "ToolTip": "C:\\Users\\USER\\OneDrive\\Documents\\WebsiteGenZ\\WebsiteGenZ\\appsettings.Development.json",
+              "RelativeToolTip": "WebsiteGenZ\\appsettings.Development.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-11-22T11:44:30.756Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Product.cshtml",
+              "DocumentMoniker": "C:\\Users\\USER\\OneDrive\\Documents\\WebsiteGenZ\\WebsiteGenZ\\Areas\\Admin\\Views\\HomeAdmin\\Product.cshtml",
+              "RelativeDocumentMoniker": "WebsiteGenZ\\Areas\\Admin\\Views\\HomeAdmin\\Product.cshtml",
+              "ToolTip": "C:\\Users\\USER\\OneDrive\\Documents\\WebsiteGenZ\\WebsiteGenZ\\Areas\\Admin\\Views\\HomeAdmin\\Product.cshtml",
+              "RelativeToolTip": "WebsiteGenZ\\Areas\\Admin\\Views\\HomeAdmin\\Product.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-22T10:48:58.662Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "CartItemModel.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\OneDrive\\Documents\\WebsiteGenZ\\WebsiteGenZ\\Models\\CartItemModel.cs",
+              "RelativeDocumentMoniker": "WebsiteGenZ\\Models\\CartItemModel.cs",
+              "ToolTip": "C:\\Users\\USER\\OneDrive\\Documents\\WebsiteGenZ\\WebsiteGenZ\\Models\\CartItemModel.cs",
+              "RelativeToolTip": "WebsiteGenZ\\Models\\CartItemModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-22T10:47:21.32Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "forgot-password.css",
+              "DocumentMoniker": "C:\\Users\\USER\\OneDrive\\Documents\\WebsiteGenZ\\WebsiteGenZ\\wwwroot\\css\\forgot-password.css",
+              "RelativeDocumentMoniker": "WebsiteGenZ\\wwwroot\\css\\forgot-password.css",
+              "ToolTip": "C:\\Users\\USER\\OneDrive\\Documents\\WebsiteGenZ\\WebsiteGenZ\\wwwroot\\css\\forgot-password.css",
+              "RelativeToolTip": "WebsiteGenZ\\wwwroot\\css\\forgot-password.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-11-22T10:20:23.233Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "AddressModel.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\OneDrive\\Documents\\WebsiteGenZ\\WebsiteGenZ\\Models\\AddressModel.cs",
+              "RelativeDocumentMoniker": "WebsiteGenZ\\Models\\AddressModel.cs",
+              "ToolTip": "C:\\Users\\USER\\OneDrive\\Documents\\WebsiteGenZ\\WebsiteGenZ\\Models\\AddressModel.cs",
+              "RelativeToolTip": "WebsiteGenZ\\Models\\AddressModel.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAA6wBIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-21T09:30:59.865Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Privacy.cshtml",
+              "DocumentMoniker": "C:\\Users\\USER\\OneDrive\\Documents\\WebsiteGenZ\\WebsiteGenZ\\Views\\Home\\Privacy.cshtml",
+              "RelativeDocumentMoniker": "WebsiteGenZ\\Views\\Home\\Privacy.cshtml",
+              "ToolTip": "C:\\Users\\USER\\OneDrive\\Documents\\WebsiteGenZ\\WebsiteGenZ\\Views\\Home\\Privacy.cshtml",
+              "RelativeToolTip": "WebsiteGenZ\\Views\\Home\\Privacy.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-20T23:24:14.336Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\USER\\OneDrive\\Documents\\WebsiteGenZ\\WebsiteGenZ\\Views\\Category\\Index.cshtml",
+              "RelativeDocumentMoniker": "WebsiteGenZ\\Views\\Category\\Index.cshtml",
+              "ToolTip": "C:\\Users\\USER\\OneDrive\\Documents\\WebsiteGenZ\\WebsiteGenZ\\Views\\Category\\Index.cshtml",
+              "RelativeToolTip": "WebsiteGenZ\\Views\\Category\\Index.cshtml",
+              "ViewState": "AgIAADYAAAAAAAAAAAAAAIEAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-20T23:07:31.747Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Error.cshtml",
+              "DocumentMoniker": "C:\\Users\\USER\\OneDrive\\Documents\\WebsiteGenZ\\WebsiteGenZ\\Views\\Shared\\Error.cshtml",
+              "RelativeDocumentMoniker": "WebsiteGenZ\\Views\\Shared\\Error.cshtml",
+              "ToolTip": "C:\\Users\\USER\\OneDrive\\Documents\\WebsiteGenZ\\WebsiteGenZ\\Views\\Shared\\Error.cshtml",
+              "RelativeToolTip": "WebsiteGenZ\\Views\\Shared\\Error.cshtml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABEAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-22T07:46:53.331Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "HomeViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\OneDrive\\Documents\\WebsiteGenZ\\WebsiteGenZ\\Models\\ViewModels\\HomeViewModel.cs",
+              "RelativeDocumentMoniker": "WebsiteGenZ\\Models\\ViewModels\\HomeViewModel.cs",
+              "ToolTip": "C:\\Users\\USER\\OneDrive\\Documents\\WebsiteGenZ\\WebsiteGenZ\\Models\\ViewModels\\HomeViewModel.cs",
+              "RelativeToolTip": "WebsiteGenZ\\Models\\ViewModels\\HomeViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-20T23:24:02.515Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\OneDrive\\Documents\\WebsiteGenZ\\WebsiteGenZ\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "WebsiteGenZ\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\USER\\OneDrive\\Documents\\WebsiteGenZ\\WebsiteGenZ\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "WebsiteGenZ\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAACYAAAAAAAAAAAAEwDQAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-21T20:42:27.756Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\OneDrive\\Documents\\WebsiteGenZ\\WebsiteGenZ\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "WebsiteGenZ\\Controllers\\ProductController.cs",
+              "ToolTip": "C:\\Users\\USER\\OneDrive\\Documents\\WebsiteGenZ\\WebsiteGenZ\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "WebsiteGenZ\\Controllers\\ProductController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADMAAABIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-22T03:34:48.715Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "LoginViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\OneDrive\\Documents\\WebsiteGenZ\\WebsiteGenZ\\Models\\ViewModels\\LoginViewModel.cs",
+              "RelativeDocumentMoniker": "WebsiteGenZ\\Models\\ViewModels\\LoginViewModel.cs",
+              "ToolTip": "C:\\Users\\USER\\OneDrive\\Documents\\WebsiteGenZ\\WebsiteGenZ\\Models\\ViewModels\\LoginViewModel.cs",
+              "RelativeToolTip": "WebsiteGenZ\\Models\\ViewModels\\LoginViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-21T20:42:35.568Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "HomeAdminController.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\OneDrive\\Documents\\WebsiteGenZ\\WebsiteGenZ\\Areas\\Admin\\Controllers\\HomeAdminController.cs",
+              "RelativeDocumentMoniker": "WebsiteGenZ\\Areas\\Admin\\Controllers\\HomeAdminController.cs",
+              "ToolTip": "C:\\Users\\USER\\OneDrive\\Documents\\WebsiteGenZ\\WebsiteGenZ\\Areas\\Admin\\Controllers\\HomeAdminController.cs",
+              "RelativeToolTip": "WebsiteGenZ\\Areas\\Admin\\Controllers\\HomeAdminController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-21T09:36:37.585Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "CheckoutController.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\OneDrive\\Documents\\WebsiteGenZ\\WebsiteGenZ\\Controllers\\CheckoutController.cs",
+              "RelativeDocumentMoniker": "WebsiteGenZ\\Controllers\\CheckoutController.cs",
+              "ToolTip": "C:\\Users\\USER\\OneDrive\\Documents\\WebsiteGenZ\\WebsiteGenZ\\Controllers\\CheckoutController.cs",
+              "RelativeToolTip": "WebsiteGenZ\\Controllers\\CheckoutController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-21T09:36:17.599Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "CategoryController.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\OneDrive\\Documents\\WebsiteGenZ\\WebsiteGenZ\\Controllers\\CategoryController.cs",
+              "RelativeDocumentMoniker": "WebsiteGenZ\\Controllers\\CategoryController.cs",
+              "ToolTip": "C:\\Users\\USER\\OneDrive\\Documents\\WebsiteGenZ\\WebsiteGenZ\\Controllers\\CategoryController.cs",
+              "RelativeToolTip": "WebsiteGenZ\\Controllers\\CategoryController.cs",
+              "ViewState": "AgIAAGsAAAAAAAAAAAAgwEMAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-20T23:07:03.206Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "CartController.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\OneDrive\\Documents\\WebsiteGenZ\\WebsiteGenZ\\Controllers\\CartController.cs",
+              "RelativeDocumentMoniker": "WebsiteGenZ\\Controllers\\CartController.cs",
+              "ToolTip": "C:\\Users\\USER\\OneDrive\\Documents\\WebsiteGenZ\\WebsiteGenZ\\Controllers\\CartController.cs",
+              "RelativeToolTip": "WebsiteGenZ\\Controllers\\CartController.cs",
+              "ViewState": "AgIAAG0AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-20T23:16:56.299Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\OneDrive\\Documents\\WebsiteGenZ\\WebsiteGenZ\\Program.cs",
+              "RelativeDocumentMoniker": "WebsiteGenZ\\Program.cs",
+              "ToolTip": "C:\\Users\\USER\\OneDrive\\Documents\\WebsiteGenZ\\WebsiteGenZ\\Program.cs",
+              "RelativeToolTip": "WebsiteGenZ\\Program.cs",
+              "ViewState": "AgIAAEIAAAAAAAAAAAAuwEUAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-22T03:21:15.259Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "C:\\Users\\USER\\OneDrive\\Documents\\WebsiteGenZ\\WebsiteGenZ\\Views\\Account\\Register.cshtml",
+              "RelativeDocumentMoniker": "WebsiteGenZ\\Views\\Account\\Register.cshtml",
+              "ToolTip": "C:\\Users\\USER\\OneDrive\\Documents\\WebsiteGenZ\\WebsiteGenZ\\Views\\Account\\Register.cshtml",
+              "RelativeToolTip": "WebsiteGenZ\\Views\\Account\\Register.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-22T00:22:48.006Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "ScaffoldingReadMe.txt",
+              "DocumentMoniker": "C:\\Users\\USER\\OneDrive\\Documents\\WebsiteGenZ\\WebsiteGenZ\\ScaffoldingReadMe.txt",
+              "RelativeDocumentMoniker": "WebsiteGenZ\\ScaffoldingReadMe.txt",
+              "ToolTip": "C:\\Users\\USER\\OneDrive\\Documents\\WebsiteGenZ\\WebsiteGenZ\\ScaffoldingReadMe.txt",
+              "RelativeToolTip": "WebsiteGenZ\\ScaffoldingReadMe.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2024-11-22T03:12:32.038Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Users\\USER\\OneDrive\\Documents\\WebsiteGenZ\\WebsiteGenZ\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "WebsiteGenZ\\Views\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Users\\USER\\OneDrive\\Documents\\WebsiteGenZ\\WebsiteGenZ\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "WebsiteGenZ\\Views\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-22T03:13:31.807Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "ResetPasswordModel.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\OneDrive\\Documents\\WebsiteGenZ\\WebsiteGenZ\\Models\\ViewModels\\ResetPasswordModel.cs",
+              "RelativeDocumentMoniker": "WebsiteGenZ\\Models\\ViewModels\\ResetPasswordModel.cs",
+              "ToolTip": "C:\\Users\\USER\\OneDrive\\Documents\\WebsiteGenZ\\WebsiteGenZ\\Models\\ViewModels\\ResetPasswordModel.cs",
+              "RelativeToolTip": "WebsiteGenZ\\Models\\ViewModels\\ResetPasswordModel.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAwAkAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-21T23:14:40.136Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "ForgotPasswordModel.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\OneDrive\\Documents\\WebsiteGenZ\\WebsiteGenZ\\Models\\ViewModels\\ForgotPasswordModel.cs",
+              "RelativeDocumentMoniker": "WebsiteGenZ\\Models\\ViewModels\\ForgotPasswordModel.cs",
+              "ToolTip": "C:\\Users\\USER\\OneDrive\\Documents\\WebsiteGenZ\\WebsiteGenZ\\Models\\ViewModels\\ForgotPasswordModel.cs",
+              "RelativeToolTip": "WebsiteGenZ\\Models\\ViewModels\\ForgotPasswordModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-21T23:14:18.892Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "ProductDetailsViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\OneDrive\\Documents\\WebsiteGenZ\\WebsiteGenZ\\Models\\ViewModels\\ProductDetailsViewModel.cs",
+              "RelativeDocumentMoniker": "WebsiteGenZ\\Models\\ViewModels\\ProductDetailsViewModel.cs",
+              "ToolTip": "C:\\Users\\USER\\OneDrive\\Documents\\WebsiteGenZ\\WebsiteGenZ\\Models\\ViewModels\\ProductDetailsViewModel.cs",
+              "RelativeToolTip": "WebsiteGenZ\\Models\\ViewModels\\ProductDetailsViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-21T20:42:33.915Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "EmailSender.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\OneDrive\\Documents\\WebsiteGenZ\\WebsiteGenZ\\Areas\\Admin\\Repository\\EmailSender.cs",
+              "RelativeDocumentMoniker": "WebsiteGenZ\\Areas\\Admin\\Repository\\EmailSender.cs",
+              "ToolTip": "C:\\Users\\USER\\OneDrive\\Documents\\WebsiteGenZ\\WebsiteGenZ\\Areas\\Admin\\Repository\\EmailSender.cs",
+              "RelativeToolTip": "WebsiteGenZ\\Areas\\Admin\\Repository\\EmailSender.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-21T23:08:34.725Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\USER\\OneDrive\\Documents\\WebsiteGenZ\\WebsiteGenZ\\Views\\Checkout\\Index.cshtml",
+              "RelativeDocumentMoniker": "WebsiteGenZ\\Views\\Checkout\\Index.cshtml",
+              "ToolTip": "C:\\Users\\USER\\OneDrive\\Documents\\WebsiteGenZ\\WebsiteGenZ\\Views\\Checkout\\Index.cshtml",
+              "RelativeToolTip": "WebsiteGenZ\\Views\\Checkout\\Index.cshtml",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAmwD8AAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-21T09:27:20.676Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "CartViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\OneDrive\\Documents\\WebsiteGenZ\\WebsiteGenZ\\Models\\ViewModels\\CartViewModel.cs",
+              "RelativeDocumentMoniker": "WebsiteGenZ\\Models\\ViewModels\\CartViewModel.cs",
+              "ToolTip": "C:\\Users\\USER\\OneDrive\\Documents\\WebsiteGenZ\\WebsiteGenZ\\Models\\ViewModels\\CartViewModel.cs",
+              "RelativeToolTip": "WebsiteGenZ\\Models\\ViewModels\\CartViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-21T23:00:16.254Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "IEmailSender.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\OneDrive\\Documents\\WebsiteGenZ\\WebsiteGenZ\\Areas\\Admin\\Repository\\IEmailSender.cs",
+              "RelativeDocumentMoniker": "WebsiteGenZ\\Areas\\Admin\\Repository\\IEmailSender.cs",
+              "ToolTip": "C:\\Users\\USER\\OneDrive\\Documents\\WebsiteGenZ\\WebsiteGenZ\\Areas\\Admin\\Repository\\IEmailSender.cs",
+              "RelativeToolTip": "WebsiteGenZ\\Areas\\Admin\\Repository\\IEmailSender.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-21T23:09:16.435Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "DataContext.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\OneDrive\\Documents\\WebsiteGenZ\\WebsiteGenZ\\Repository\\DataContext.cs",
+              "RelativeDocumentMoniker": "WebsiteGenZ\\Repository\\DataContext.cs",
+              "ToolTip": "C:\\Users\\USER\\OneDrive\\Documents\\WebsiteGenZ\\WebsiteGenZ\\Repository\\DataContext.cs",
+              "RelativeToolTip": "WebsiteGenZ\\Repository\\DataContext.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAwwBsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-21T20:41:52.702Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "CheckoutViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\OneDrive\\Documents\\WebsiteGenZ\\WebsiteGenZ\\Models\\ViewModels\\CheckoutViewModel.cs",
+              "RelativeDocumentMoniker": "WebsiteGenZ\\Models\\ViewModels\\CheckoutViewModel.cs",
+              "ToolTip": "C:\\Users\\USER\\OneDrive\\Documents\\WebsiteGenZ\\WebsiteGenZ\\Models\\ViewModels\\CheckoutViewModel.cs",
+              "RelativeToolTip": "WebsiteGenZ\\Models\\ViewModels\\CheckoutViewModel.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAADwvwgAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-21T01:57:58.446Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "Checkout.cshtml",
+              "DocumentMoniker": "C:\\Users\\USER\\OneDrive\\Documents\\WebsiteGenZ\\WebsiteGenZ\\Views\\Checkout\\Checkout.cshtml",
+              "RelativeDocumentMoniker": "WebsiteGenZ\\Views\\Checkout\\Checkout.cshtml",
+              "ToolTip": "C:\\Users\\USER\\OneDrive\\Documents\\WebsiteGenZ\\WebsiteGenZ\\Views\\Checkout\\Checkout.cshtml",
+              "RelativeToolTip": "WebsiteGenZ\\Views\\Checkout\\Checkout.cshtml",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-21T09:27:19.985Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "RegisterViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\OneDrive\\Documents\\WebsiteGenZ\\WebsiteGenZ\\Models\\ViewModels\\RegisterViewModel.cs",
+              "RelativeDocumentMoniker": "WebsiteGenZ\\Models\\ViewModels\\RegisterViewModel.cs",
+              "ToolTip": "C:\\Users\\USER\\OneDrive\\Documents\\WebsiteGenZ\\WebsiteGenZ\\Models\\ViewModels\\RegisterViewModel.cs",
+              "RelativeToolTip": "WebsiteGenZ\\Models\\ViewModels\\RegisterViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-21T20:42:31.959Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "ProductRepository.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\OneDrive\\Documents\\WebsiteGenZ\\WebsiteGenZ\\Repository\\ProductRepository.cs",
+              "RelativeDocumentMoniker": "WebsiteGenZ\\Repository\\ProductRepository.cs",
+              "ToolTip": "C:\\Users\\USER\\OneDrive\\Documents\\WebsiteGenZ\\WebsiteGenZ\\Repository\\ProductRepository.cs",
+              "RelativeToolTip": "WebsiteGenZ\\Repository\\ProductRepository.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-21T20:41:39.762Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "PaymentModel.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\OneDrive\\Documents\\WebsiteGenZ\\WebsiteGenZ\\Models\\PaymentModel.cs",
+              "RelativeDocumentMoniker": "WebsiteGenZ\\Models\\PaymentModel.cs",
+              "ToolTip": "C:\\Users\\USER\\OneDrive\\Documents\\WebsiteGenZ\\WebsiteGenZ\\Models\\PaymentModel.cs",
+              "RelativeToolTip": "WebsiteGenZ\\Models\\PaymentModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-21T20:30:46.201Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "ShippingMethodModel.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\OneDrive\\Documents\\WebsiteGenZ\\WebsiteGenZ\\Models\\ShippingMethodModel.cs",
+              "RelativeDocumentMoniker": "WebsiteGenZ\\Models\\ShippingMethodModel.cs",
+              "ToolTip": "C:\\Users\\USER\\OneDrive\\Documents\\WebsiteGenZ\\WebsiteGenZ\\Models\\ShippingMethodModel.cs",
+              "RelativeToolTip": "WebsiteGenZ\\Models\\ShippingMethodModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-21T20:28:43.032Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "ImageService.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\OneDrive\\Documents\\WebsiteGenZ\\WebsiteGenZ\\Services\\ImageService.cs",
+              "RelativeDocumentMoniker": "WebsiteGenZ\\Services\\ImageService.cs",
+              "ToolTip": "C:\\Users\\USER\\OneDrive\\Documents\\WebsiteGenZ\\WebsiteGenZ\\Services\\ImageService.cs",
+              "RelativeToolTip": "WebsiteGenZ\\Services\\ImageService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-21T09:37:44.161Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "checkout.css",
+              "DocumentMoniker": "C:\\Users\\USER\\OneDrive\\Documents\\WebsiteGenZ\\WebsiteGenZ\\wwwroot\\css\\checkout.css",
+              "RelativeDocumentMoniker": "WebsiteGenZ\\wwwroot\\css\\checkout.css",
+              "ToolTip": "C:\\Users\\USER\\OneDrive\\Documents\\WebsiteGenZ\\WebsiteGenZ\\wwwroot\\css\\checkout.css",
+              "RelativeToolTip": "WebsiteGenZ\\wwwroot\\css\\checkout.css",
+              "ViewState": "AgIAAEcBAAAAAAAAAAAYwE8BAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-11-21T09:34:56.44Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "OrderDetailsModel.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\OneDrive\\Documents\\WebsiteGenZ\\WebsiteGenZ\\Models\\OrderDetailsModel.cs",
+              "RelativeDocumentMoniker": "WebsiteGenZ\\Models\\OrderDetailsModel.cs",
+              "ToolTip": "C:\\Users\\USER\\OneDrive\\Documents\\WebsiteGenZ\\WebsiteGenZ\\Models\\OrderDetailsModel.cs",
+              "RelativeToolTip": "WebsiteGenZ\\Models\\OrderDetailsModel.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAxwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-21T09:29:45.29Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "OrderModel.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\OneDrive\\Documents\\WebsiteGenZ\\WebsiteGenZ\\Models\\OrderModel.cs",
+              "RelativeDocumentMoniker": "WebsiteGenZ\\Models\\OrderModel.cs",
+              "ToolTip": "C:\\Users\\USER\\OneDrive\\Documents\\WebsiteGenZ\\WebsiteGenZ\\Models\\OrderModel.cs",
+              "RelativeToolTip": "WebsiteGenZ\\Models\\OrderModel.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAwBoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-21T09:29:34.791Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "WishlistItem.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\OneDrive\\Documents\\WebsiteGenZ\\WebsiteGenZ\\Models\\WishlistItem.cs",
+              "RelativeDocumentMoniker": "WebsiteGenZ\\Models\\WishlistItem.cs",
+              "ToolTip": "C:\\Users\\USER\\OneDrive\\Documents\\WebsiteGenZ\\WebsiteGenZ\\Models\\WishlistItem.cs",
+              "RelativeToolTip": "WebsiteGenZ\\Models\\WishlistItem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-21T09:27:17.07Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "Wishlist.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\OneDrive\\Documents\\WebsiteGenZ\\WebsiteGenZ\\Models\\Wishlist.cs",
+              "RelativeDocumentMoniker": "WebsiteGenZ\\Models\\Wishlist.cs",
+              "ToolTip": "C:\\Users\\USER\\OneDrive\\Documents\\WebsiteGenZ\\WebsiteGenZ\\Models\\Wishlist.cs",
+              "RelativeToolTip": "WebsiteGenZ\\Models\\Wishlist.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-21T09:27:16.459Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "SubInfoModel.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\OneDrive\\Documents\\WebsiteGenZ\\WebsiteGenZ\\Models\\SubInfoModel.cs",
+              "RelativeDocumentMoniker": "WebsiteGenZ\\Models\\SubInfoModel.cs",
+              "ToolTip": "C:\\Users\\USER\\OneDrive\\Documents\\WebsiteGenZ\\WebsiteGenZ\\Models\\SubInfoModel.cs",
+              "RelativeToolTip": "WebsiteGenZ\\Models\\SubInfoModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-21T09:27:15.795Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "Product_ColorModel.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\OneDrive\\Documents\\WebsiteGenZ\\WebsiteGenZ\\Models\\Product_ColorModel.cs",
+              "RelativeDocumentMoniker": "WebsiteGenZ\\Models\\Product_ColorModel.cs",
+              "ToolTip": "C:\\Users\\USER\\OneDrive\\Documents\\WebsiteGenZ\\WebsiteGenZ\\Models\\Product_ColorModel.cs",
+              "RelativeToolTip": "WebsiteGenZ\\Models\\Product_ColorModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-21T09:27:14.44Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "ProductModel.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\OneDrive\\Documents\\WebsiteGenZ\\WebsiteGenZ\\Models\\ProductModel.cs",
+              "RelativeDocumentMoniker": "WebsiteGenZ\\Models\\ProductModel.cs",
+              "ToolTip": "C:\\Users\\USER\\OneDrive\\Documents\\WebsiteGenZ\\WebsiteGenZ\\Models\\ProductModel.cs",
+              "RelativeToolTip": "WebsiteGenZ\\Models\\ProductModel.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAcwCsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-20T23:31:36.712Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\USER\\OneDrive\\Documents\\WebsiteGenZ\\WebsiteGenZ\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "WebsiteGenZ\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\USER\\OneDrive\\Documents\\WebsiteGenZ\\WebsiteGenZ\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "WebsiteGenZ\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABcAAABxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-20T23:24:19.465Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "ProductListViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\OneDrive\\Documents\\WebsiteGenZ\\WebsiteGenZ\\Models\\ViewModels\\ProductListViewModel.cs",
+              "RelativeDocumentMoniker": "WebsiteGenZ\\Models\\ViewModels\\ProductListViewModel.cs",
+              "ToolTip": "C:\\Users\\USER\\OneDrive\\Documents\\WebsiteGenZ\\WebsiteGenZ\\Models\\ViewModels\\ProductListViewModel.cs",
+              "RelativeToolTip": "WebsiteGenZ\\Models\\ViewModels\\ProductListViewModel.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAxwBAAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-20T23:23:26.288Z"
+            }
+          ]
+        },
+        {
+          "DockedHeight": 329,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            }
+          ]
+        },
+        {
+          "DockedHeight": 14,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

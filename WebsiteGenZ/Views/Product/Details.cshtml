@@ -1,0 +1,365 @@
+﻿@model WebsiteGenZ.Models.ViewModels.ProductDetailsViewModel
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>iPhone 14 Pro Max</title>
+    <link rel="stylesheet" href="/css/product-details.css">
+</head>
+
+<body>
+    <div class="product-page-container">
+        <main>
+            <div class="breadcrumb">
+                <a href="#">Home</a> >
+                <a href="#">Category</a> >
+                <a href="#">Smartphones</a> >
+                <a href="#">Apple</a>
+                <span class="current">@Model.product.Name</span>
+            </div>
+
+            <section class="product-detail">
+                <div class="product-image-wrapper">
+                    <div class="product-images">
+                        <img src="@Model.images[0].Image" alt="iPhone 14 Pro Max Main Image"
+                             class="main-image">
+                        <div class="thumbnail-images">
+                            @foreach (var image in Model.images)
+                            {
+                                <img src="@image.Image" alt="@image.Product.Name">
+                            }
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-info-wrapper">
+                    <div class="product-info">
+                        <h1>@Model.product.Name</h1>
+                        <p class="price"><span>@Model.product.Price</span>
+                        <div class="color-options">
+                            <p>Select color:</p>
+                            <div class="colors">
+                                <span class="color black"></span>
+                                <span class="color purple"></span>
+                                <span class="color red"></span>
+                                <span class="color yellow"></span>
+                                <span class="color silver"></span>
+                            </div>
+                        </div>
+
+                        <div class="storage-options">
+                            <button>128GB</button>
+                            <button>256GB</button>
+                            <button>512GB</button>
+                            <button class="selected">1TB</button>
+                        </div>
+<!--
+                        <div class="specs">
+                            <div class="spec-item">
+                                <i class="fa-solid fa-mobile-screen-button"></i>
+                                <div>
+                                    <p>Screen size</p>
+                                    <span>6.7"</span>
+                                </div>
+                            </div>
+                            <div class="spec-item">
+                                <i class="fa-solid fa-microchip"></i>
+                                <div>
+                                    <p>CPU</p>
+                                    <span>Apple A16 Bionic</span>
+                                </div>
+                            </div>
+                            <div class="spec-item">
+                                <i class="fa-solid fa-microchip"></i>
+                                <div>
+                                    <p>Number of Cores</p>
+                                    <span>6</span>
+                                </div>
+                            </div>
+                            <div class="spec-item">
+                                <i class="fa-solid fa-camera"></i>
+                                <div>
+                                    <p>Main Camera</p>
+                                    <span>48-12-12 MP</span>
+                                </div>
+                            </div>
+                            <div class="spec-item">
+                                <i class="fa-solid fa-camera"></i>
+                                <div>
+                                    <p>Front Camera</p>
+                                    <span>12 MP</span>
+                                </div>
+                            </div>
+                            <div class="spec-item">
+                                <i class="fa-solid fa-battery-full"></i>
+                                <div>
+                                    <p>Battery Capacity</p>
+                                    <span>4323 mAh</span>
+                                </div>
+                            </div>
+                        </div>
+-->
+                        <p class="description">
+                            @Model.product.Description
+                            <span class="more">more...</span>
+                        </p>
+
+                        <div class="actions">
+                            <button class="wishlist-btn">Add to Wishlist</button>
+                            
+                            <form method="post" action="/Cart/AddToCart" class="add-to-cart-form">
+                                <input type="hidden" name="productId" value="@Model.product.Id" />
+                                <input type="hidden" name="quantity" value="1" />
+                                <button class="cart-btn" asp-action="AddToCart" asp-controller="Cart">Add to Cart</button>
+                            </form>
+                        </div>
+
+                        <div class="additional-info">
+                            <div class="info-item">
+                                <i class="fa-solid fa-truck"></i>
+                                <div>
+                                    <p>Free Delivery</p>
+                                    <span>1-2 day</span>
+                                </div>
+                            </div>
+                            <div class="info-item">
+                                <i class="fa-solid fa-store"></i>
+                                <div>
+                                    <p>In Stock</p>
+                                    <span>Today</span>
+                                </div>
+                            </div>
+                            <div class="info-item">
+                                <i class="fa-solid fa-shield"></i>
+                                <div>
+                                    <p>Guaranteed</p>
+                                    <span>1 year</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="product-details">
+                <h2>Details</h2>
+                <p>
+                    Just as a book is judged by its cover, the first thing you notice when you pick up a modern
+                    smartphone is the display. Nothing surprising, because advanced technologies allow you to
+                    practically level the display frames and cutouts for the front camera and speaker, leaving no room
+                    for bold design solutions. And how good that in such realities Apple everything is fine with
+                    displays. Both critics and mass consumers always praise the quality of the picture provided by the
+                    products of the Californian brand. And last year's 6.7-inch Retina panels, which had ProMotion,
+                    caused real admiration for many.
+                </p>
+            </section>
+            <section class="product-reviews">
+                <h2>Reviews</h2>
+                <div class="review-summary">
+                    <div class="average-rating">
+                        <p class="rating-number">4.8</p>
+                        <p>of 125 reviews</p>
+                        <div class="stars">
+                            <span>★★★★★</span>
+                        </div>
+                    </div>
+                    <div class="rating-breakdown">
+                        <div class="rating-bar">
+                            <span>Excellent</span>
+                            <div class="bar">
+                                <div style="width: 80%;"></div>
+                            </div>
+                            <span class="count">100</span>
+                        </div>
+                        <div class="rating-bar">
+                            <span>Good</span>
+                            <div class="bar">
+                                <div style="width: 15%;"></div>
+                            </div>
+                            <span class="count">11</span>
+                        </div>
+                        <div class="rating-bar">
+                            <span>Average</span>
+                            <div class="bar">
+                                <div style="width: 5%;"></div>
+                            </div>
+                            <span class="count">3</span>
+                        </div>
+                        <div class="rating-bar">
+                            <span>Below Average</span>
+                            <div class="bar">
+                                <div style="width: 10%;"></div>
+                            </div>
+                            <span class="count">8</span>
+                        </div>
+                        <div class="rating-bar">
+                            <span>Poor</span>
+                            <div class="bar">
+                                <div style="width: 2%;"></div>
+                            </div>
+                            <span class="count">1</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="review-input">
+                    <input type="text" placeholder="Leave Comment">
+                </div>
+
+                <div class="review-list">
+                    <div class="review-item">
+                        <div class="review-header">
+                            <img src="assets/images/user1.jpg" alt="User Image" class="user-image">
+                            <div class="reviewer-details">
+                                <p class="reviewer-name">Grace Carey</p>
+                                <div class="stars"><span>★★★★☆</span></div>
+                            </div>
+                            <span class="review-date">24 January, 2023</span>
+                        </div>
+                        <p class="review-text">
+                            I was a bit nervous to be buying a secondhand phone from Amazon, but I
+                            couldn’t be happier with my purchase!...
+                        </p>
+                    </div>
+
+                    <div class="review-item">
+                        <div class="review-header">
+                            <img src="assets/images/user2.jpg" alt="User Image" class="user-image">
+                            <div class="reviewer-details">
+                                <p class="reviewer-name">Ronald Richards</p>
+                                <div class="stars"><span>★★★★★</span></div>
+                            </div>
+                            <span class="review-date">24 January, 2023</span>
+                        </div>
+                        <p class="review-text">
+                            This phone has 1T storage and is durable. Plus all the new iPhones have a
+                            C port!...
+                        </p>
+                    </div>
+
+                    <div class="review-item">
+                        <div class="review-header">
+                            <img src="assets/images/user3.jpg" alt="User Image" class="user-image">
+                            <div class="reviewer-details">
+                                <p class="reviewer-name">Darcy King</p>
+                                <div class="stars"><span>★★★★☆</span></div>
+                            </div>
+                            <span class="review-date">24 January, 2023</span>
+                        </div>
+                        <p class="review-text">
+                            I might be the only one to say this but the camera is a little funky...
+                        </p>
+                    </div>
+
+                    <button class="view-more-btn">
+                        View More
+                        <i class="fas fa-chevron-down"></i>
+                    </button>
+                </div>
+            </section>
+
+        </main>
+    </div>
+
+    <div class="discount-list product-section">
+        <div class="product-list-container">
+            <div class="product-list-title-container">
+                <div class="product-list-title discount-list-title">
+                    <p>Related Products</p>
+                </div>
+            </div>
+            <div class="product-list">
+                <div class="product-container">
+                    <div class="product-image-container">
+                        <img src="assets/images/Prd_Lap_1.webp" alt="">
+                    </div>
+                    <div class="product-name">
+                        <p>Macbook Air 2024 M3 13.6inch 8GB/512GB Chính Hãng Apple VN</p>
+                    </div>
+                    <div class="product-price">
+                        <p>25.280.000 VNĐ</p>
+                    </div>
+                    <a href="#">
+                        <div class="add-to-cart-button">
+                            Add To Cart
+                        </div>
+                    </a>
+                    <a href="#">
+                        <div class="like-button liked-button">
+                            <i class="fa-solid fa-heart"></i>
+                        </div>
+                    </a>
+                </div>
+                <div class="product-container">
+                    <div class="product-image-container">
+                        <img src="assets/images/Prd_hp_1.jpg" alt="">
+                    </div>
+                    <div class="product-name">
+                        <p>Macbook Air 2024 M3 13.6inch 8GB/512GB Chính Hãng Apple VN</p>
+                    </div>
+                    <div class="product-price">
+                        <p>25.280.000 VNĐ</p>
+                    </div>
+                    <a href="#">
+                        <div class="add-to-cart-button">
+                            Add To Cart
+                        </div>
+                    </a>
+                    <a href="#">
+                        <div class="like-button">
+                            <i class="fa-solid fa-heart"></i>
+                        </div>
+                    </a>
+                </div>
+                <div class="product-container">
+                    <div class="product-image-container">
+                        <img src="assets/images/Prd_Phone_1.webp" alt="">
+                    </div>
+                    <div class="product-name">
+                        <p>Macbook Air 2024 M3 13.6inch 8GB/512GB Chính Hãng Apple VN</p>
+                    </div>
+                    <div class="product-price">
+                        <p>25.280.000 VNĐ</p>
+                    </div>
+                    <a href="#">
+                        <div class="add-to-cart-button">
+                            Add To Cart
+                        </div>
+                    </a>
+                    <a href="#">
+                        <div class="like-button liked-button">
+                            <i class="fa-solid fa-heart"></i>
+                        </div>
+                    </a>
+                </div>
+                <div class="product-container">
+                    <div class="product-image-container">
+                        <img src="assets/images/Prd_Lap_1.webp" alt="">
+                    </div>
+                    <div class="product-name">
+                        <p>Macbook Air 2024 M3 13.6inch 8GB/512GB Chính Hãng Apple VN</p>
+                    </div>
+                    <div class="product-price">
+                        <p>25.280.000 VNĐ</p>
+                    </div>
+                    <a href="#">
+                        <div class="add-to-cart-button">
+                            Add To Cart
+                        </div>
+                    </a>
+                    <a href="#">
+                        <div class="like-button liked-button">
+                            <i class="fa-solid fa-heart"></i>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="/scripts/script.js"></script>
+</body>
+

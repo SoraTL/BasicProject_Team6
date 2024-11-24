@@ -1,0 +1,166 @@
+﻿@using System.Security.Claims
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/home.css">
+    <link rel="icon" href="/media/products/logo.jpg" type="image/x-icon">
+    <script src="https://kit.fontawesome.com/385d797bd0.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header>
+        <div class="header-container">
+            <div class="header-wrapper">
+                <div class="header-logo">
+                    <a asp-controller="Home" asp-action="Index" class="active"><img src="/media/products/logo.jpg" alt="Logo"></a>
+                </div>
+                    <div class="search-container">
+                        <form asp-controller="Category" asp-action="Index" method="get">
+                            <input type="text" placeholder="What you need..." name="SearchQuery" value="@ViewBag.SearchQuery">
+                            <button type="submit"><i class="fas fa-search"></i></button>
+                        </form>
+                    </div>
+                <div class="nav">
+                    <div class="nav-item this-page">
+                     
+                        <a asp-controller="Home" asp-action="Index" class="active">Home</a>
+                    </div>
+                    <div class="nav-item">
+                        <a asp-controller="Category" asp-action="Index">Product</a>
+                    </div>
+                    <div class="nav-item">
+                        <a href="#">About</a>
+                    </div>
+                    <div class="nav-item">
+                        <a asp-controller="Contact" asp-action="Index">Contact</a>
+                    </div>
+                    <div class="nav-item">
+                        <a href="#">Blog</a>
+                    </div>
+                </div>
+                <div class="nav-menu">
+                    <div class="wish-list menu-item">
+                        <a asp-action="Index" asp-controller="Catrgory">
+                            <i class="fa-regular fa-heart"></i>
+                        </a>
+                    </div>
+                    <div class="cart menu-item">
+                        <a href="#" onclick="redirectToCart(1)">
+                            <i class="fa-solid fa-cart-shopping"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="user">
+
+                    @if (User.Identity.IsAuthenticated)
+                    {
+                        <div class="user-info">
+                            <img src="~/media/avatars/avatar.png" alt="Avatar" class="user-avatar" />
+                            <p>@ViewBag.FullName</p>
+                            <a href="/Account/Logout" class="logout-button">Log out</a>
+                        </div>
+                    }
+                    else
+                    {
+                        <a href="/Account/Login" class="login-button">Login</a>
+                    }
+                </div>
+            </div>
+        </div>
+        @Html.Partial("_SidebarPartial")
+    </header>
+    @RenderBody()
+    <script>
+        function redirectToCart(page) {
+            const url = `/Cart/Index?page=${page}`;
+            window.location.href = url; // Điều hướng đến URL với tham số
+        }
+    </script>
+    <footer>
+        <div class="footer-section">
+            <div class="footer-container">
+                <div class="first-part-footer footer-part">
+                    <div class="footer-logo">
+                        <img src="/media/products/logo.jpg" alt="Footer Logo">
+                    </div>
+                    <div class="footer-description">
+                        <p>
+                            We are a residential interior design firm located in Portland. Our boutique-studio offers
+                            more than just designs.
+                        </p>
+                    </div>
+                </div>
+                <div class="second-part-footer footer-part">
+                    <div class="footer-title footer-child">
+                        <p>Services</p>
+                    </div>
+                    <div class="footer-child-container">
+                        <div class="footer-child">
+                            <p>Bonus program</p>
+                        </div>
+                        <div class="footer-child">
+                            <p>Gift cards</p>
+                        </div>
+                        <div class="footer-child">
+                            <p>Credit and payment</p>
+                        </div>
+                        <div class="footer-child">
+                            <p>Service contracts</p>
+                        </div>
+                        <div class="footer-child">
+                            <p>Non-cash account</p>
+                        </div>
+                        <div class="footer-child">
+                            <p>Payment</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="third-part-footer footer-part">
+                    <div class="footer-title footer-child">
+                        <p>Assistance to the Buyer</p>
+                    </div>
+                    <div class="footer-child-container">
+                        <div class="footer-child">
+                            <p>Find an order</p>
+                        </div>
+                        <div class="footer-child">
+                            <p>Terms of delivery</p>
+                        </div>
+                        <div class="footer-child">
+                            <p>Exchange and return of goods</p>
+                        </div>
+                        <div class="footer-child">
+                            <p>Guarantee</p>
+                        </div>
+                        <div class="footer-child">
+                            <p>Frequently asked questions</p>
+                        </div>
+                        <div class="footer-child">
+                            <p>Terms of use of the site</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="social-media-icon-container">
+                <div class="social-media-icon">
+                    <i class="fa-brands fa-facebook"></i>
+                </div>
+                <div class="social-media-icon">
+                    <i class="fa-brands fa-twitter"></i>
+                </div>
+                <div class="social-media-icon">
+                    <i class="fa-brands fa-instagram"></i>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="/scripts/script.js"></script>
+</body>
+
+</html>

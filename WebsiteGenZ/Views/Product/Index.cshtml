@@ -1,0 +1,176 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smartphone Catalog</title>
+    <script src="https://kit.fontawesome.com/385d797bd0.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="assets/styles/product-list.css">
+    <link rel="stylesheet" href="assets/styles/home.css">
+</head>
+
+<body>
+    <div class="body">
+        <div class="breadcrumb">
+            <a href="#">Home</a> >
+            <a href="#">Category</a>
+            <span class="current">Smartphones</span>
+        </div>
+        <div class="catalog-container">
+            <!-- Price Filter Section -->
+            <div class="filter-section">
+                <div class="filter">
+                    <div class="filter-header" onclick="toggleFilter('price-filter')">
+                        <span>Price</span>
+                        <span class="arrow">&#9662;</span>
+                    </div>
+                    <div id="price-filter" class="filter-content">
+                        <div class="price-range">
+                            <div class="labels">
+                                <span>From</span>
+                                <span>To</span>
+                            </div>
+                            <div class="inputs">
+                                <input type="text" id="from-price" value="0" placeholder="Min" readonly>
+                                <input type="text" id="to-price" value="2000" placeholder="Max">
+                            </div>
+                        </div>
+                        <div class="slider-container">
+                            <!-- Dual sliders for From and To with fixed ranges -->
+                            <input type="range" min="0" max="5000" value="2000" class="range-slider" id="to-range">
+                        </div>
+                    </div>
+                </div>
+                <div class="filter">
+                    <div class="filter-header" onclick="toggleFilter('brand-filter')">
+                        <span>Brand</span>
+                        <span class="arrow">&#9662;</span>
+                    </div>
+                    <div id="brand-filter" class="filter-content">
+                        <div class="search-box">
+                            <input type="text" placeholder="Search" oninput="filterItems('brand-filter')">
+                        </div>
+                        <div class="checkbox-list" data-simplebar>
+                            <label><input type="checkbox" checked> Apple <span class="count">110</span></label>
+                            <label><input type="checkbox"> Samsung <span class="count">125</span></label>
+                            <label><input type="checkbox"> Xiaomi <span class="count">68</span></label>
+                            <label><input type="checkbox"> Poco <span class="count">44</span></label>
+                            <label><input type="checkbox"> OPPO <span class="count">36</span></label>
+                            <label><input type="checkbox"> Honor <span class="count">10</span></label>
+                            <label><input type="checkbox"> Motorola <span class="count">34</span></label>
+                            <label><input type="checkbox"> Nokia <span class="count">22</span></label>
+                            <label><input type="checkbox"> Realme <span class="count">35</span></label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="discount-list product-section">
+                <div class="product-list-container">
+                    <div class="product-list">
+                        <div class="product-container">
+                            <div class="product-image-container">
+                                <img src="assets/images/Prd_Lap_1.webp" alt="">
+                            </div>
+                            <div class="product-name">
+                                <p>Macbook Air 2024 M3 13.6inch 8GB/512GB Chính Hãng Apple VN</p>
+                            </div>
+                            <div class="product-price">
+                                <p>25.280.000 VNĐ</p>
+                            </div>
+                            <a href="#">
+                                <div class="add-to-cart-button">
+                                    Add To Cart
+                                </div>
+                            </a>
+                            <a href="#">
+                                <div class="like-button liked-button">
+                                    <i class="fa-solid fa-heart"></i>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="product-container">
+                            <div class="product-image-container">
+                                <img src="assets/images/Prd_hp_1.jpg" alt="">
+                            </div>
+                            <div class="product-name">
+                                <p>Macbook Air 2024 M3 13.6inch 8GB/512GB Chính Hãng Apple VN</p>
+                            </div>
+                            <div class="product-price">
+                                <p>25.280.000 VNĐ</p>
+                            </div>
+                            <a href="#">
+                                <div class="add-to-cart-button">
+                                    Add To Cart
+                                </div>
+                            </a>
+                            <a href="#">
+                                <div class="like-button">
+                                    <i class="fa-solid fa-heart"></i>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="product-container">
+                            <div class="product-image-container">
+                                <img src="assets/images/Prd_Phone_1.webp" alt="">
+                            </div>
+                            <div class="product-name">
+                                <p>Macbook Air 2024 M3 13.6inch 8GB/512GB Chính Hãng Apple VN</p>
+                            </div>
+                            <div class="product-price">
+                                <p>25.280.000 VNĐ</p>
+                            </div>
+                            <a href="#">
+                                <div class="add-to-cart-button">
+                                    Add To Cart
+                                </div>
+                            </a>
+                            <a href="#">
+                                <div class="like-button liked-button">
+                                    <i class="fa-solid fa-heart"></i>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="product-container">
+                            <div class="product-image-container">
+                                <img src="assets/images/Prd_Lap_1.webp" alt="">
+                            </div>
+                            <div class="product-name">
+                                <p>Macbook Air 2024 M3 13.6inch 8GB/512GB Chính Hãng Apple VN</p>
+                            </div>
+                            <div class="product-price">
+                                <p>25.280.000 VNĐ</p>
+                            </div>
+                            <a href="#">
+                                <div class="add-to-cart-button">
+                                    Add To Cart
+                                </div>
+                            </a>
+                            <a href="#">
+                                <div class="like-button liked-button">
+                                    <i class="fa-solid fa-heart"></i>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="pagination">
+                        <button class="pagination-arrow" disabled>&lt;</button>
+                        <button class="pagination-page active">1</button>
+                        <button class="pagination-page">2</button>
+                        <button class="pagination-page">3</button>
+                        <span class="pagination-dots">...</span>
+                        <button class="pagination-page">12</button>
+                        <button class="pagination-arrow">&gt;</button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+
+    </div>
+    <script src="assets/scripts/product-list.js"></script>
+
+</body>
+
+</html>

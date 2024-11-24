@@ -1,0 +1,151 @@
+﻿
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout</title>
+    <link rel="stylesheet" href="~/css/checkout.css">
+    <script src="https://kit.fontawesome.com/385d797bd0.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="checkout-container">
+        <!-- Step Indicator -->
+        <div class="step-indicator">
+            <div id="step1-indicator" class="step active">
+                <i class="fas fa-location-dot"></i>
+                <span>Step 1</span>
+                <p>Address</p>
+            </div>
+            <div class="line"></div>
+            <div id="step2-indicator" class="step">
+                <i class="fas fa-shipping-fast"></i>
+                <span>Step 2</span>
+                <p>Shipping</p>
+            </div>
+            <div class="line"></div>
+            <div id="step3-indicator" class="step">
+                <i class="fas fa-credit-card"></i>
+                <span>Step 3</span>
+                <p>Payment</p>
+            </div>
+        </div>
+
+        <!-- Step 1: Address -->
+        <div id="step1" class="step-content">
+            <h2>Select Address</h2>
+            <form action="#" method="post">
+                <div class="address-list">
+                    <div class="address-item">
+                        <label>
+                            <input type="radio" name="selectedAddress" value="1" checked>
+                            <div class="address-details">
+                                <h4>211B Thornridge <span class="badge">HOME</span></h4>
+                                <p>211B Thornridge Cir, Syracuse, Connecticut 35624</p>
+                                <p>(209) 555-0104</p>
+                            </div>
+                        </label>
+                        <div class="address-actions">
+                            <button type="button" class="edit-button"><i class="fas fa-edit"></i></button>
+                            <button type="button" class="delete-button"><i class="fas fa-times"></i></button>
+                        </div>
+                    </div>
+                    <div class="address-item">
+                        <label>
+                            <input type="radio" name="selectedAddress" value="2">
+                            <div class="address-details">
+                                <h4>Headoffice <span class="badge">OFFICE</span></h4>
+                                <p>2715 Ash Dr, San Jose, South Dakota 83475</p>
+                                <p>(704) 555-0127</p>
+                            </div>
+                        </label>
+                        <div class="address-actions">
+                            <button type="button" class="edit-button"><i class="fas fa-edit"></i></button>
+                            <button type="button" class="delete-button"><i class="fas fa-times"></i></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="add-address">
+                    <button type="button" class="add-button"><i class="fas fa-plus"></i> Add New Address</button>
+                </div>
+                <div class="navigation-buttons">
+                    <button type="button" class="back-button">Back</button>
+                    <button type="button" class="next-button" onclick="goToStep(2)">Next</button>
+                </div>
+            </form>
+        </div>
+
+        <!-- Step 2: Shipping Method -->
+        <div id="step2" class="step-content">
+            <h2>Shipment Method</h2>
+            <form action="#" method="post">
+                <div class="shipping-option">
+                    <label>
+                        <input type="radio" name="shipping" checked>
+                        <div class="option-details">
+                            <span>Free</span>
+                            <p>Regular shipment</p>
+                        </div>
+                        <div class="option-date">@DateTime.Now.AddDays(+7)</div>
+                    </label>
+                </div>
+                <div class="shipping-option">
+                    <label>
+                        <input type="radio" name="shipping">
+                        <div class="option-details">
+                            <span>$8.50</span>
+                            <p>Get your delivery as soon as possible</p>
+                        </div>
+                        <div class="option-date">DateTime.Now.AddDays(1)</div>
+                    </label>
+                </div>
+                <div class="shipping-option">
+                    <label>
+                        <input type="radio" name="shipping">
+                        <div class="option-details">
+                            <span>Schedule</span>
+                            <p>Pick a date when you want to get your delivery</p>
+                        </div>
+                        <div class="option-date">Select Date</div>
+                    </label>
+                </div>
+                <div class="navigation-buttons">
+                    <button type="button" class="back-button" onclick="goToStep(1)">Back</button>
+                    <button type="button" class="next-button" onclick="goToStep(3)">Next</button>
+                </div>
+            </form>
+        </div>
+
+        <!-- Step 3: Payment -->
+        <div id="step3" class="step-content">
+            <h2>Payment</h2>
+            <p>This is where the payment details form will go.</p>
+            <div class="navigation-buttons">
+                <button type="button" class="back-button" onclick="goToStep(2)">Back</button>
+                <button type="submit" class="next-button">Complete Order</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- JavaScript for step navigation -->
+    <script>
+        function goToStep(step) {
+            document.querySelectorAll('.step-content').forEach(function (div) {
+                div.style.display = 'none'; // Hide all steps
+            });
+            document.querySelectorAll('.step-indicator .step').forEach(function (indicator) {
+                indicator.classList.remove('active'); // Deactivate all indicators
+            });
+            document.getElementById('step' + step).style.display = 'block'; // Show selected step
+            document.getElementById('step' + step + '-indicator').classList.add('active'); // Activate indicator
+        }
+        document.addEventListener("DOMContentLoaded", function () {
+            goToStep(1); // Show step 1 on load
+        });
+    </script>
+</body>
+
+</html>

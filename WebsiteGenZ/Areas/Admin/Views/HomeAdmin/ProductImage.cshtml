@@ -1,0 +1,49 @@
+﻿@model IEnumerable<WebsiteGenZ.Models.ImageModel>
+
+@{
+    ViewData["Title"] = "ProductImage";
+    Layout = "~/Areas/Admin/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+<style>
+    img{
+        height:50px;
+        width:auto;
+    }
+</style>
+
+<h1>ProductImage</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Product)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Image)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Product.Name)
+            </td>
+            <td>
+                    <img src="@Html.DisplayFor(modelItem => item.Image)" alt="@item.Product.Name" />
+            </td>
+            <td style=" word-wrap: break-word; overflow-wrap: break-word;white-space: normal;">
+                <button type="button" class="btn btn-gradient-primary btn-fw" asp-action="Edit" asp-route-id="@item.Id">Edit</button>
+                <button type="button" class="btn btn-gradient-primary btn-fw" asp-action="Details" asp-route-id="@item.Id">Details</button>
+                <button type="button" class="btn btn-gradient-primary btn-fw" asp-action="Delete" asp-route-id="@item.Id">Delete</button>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

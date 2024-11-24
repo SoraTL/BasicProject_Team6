@@ -1,0 +1,61 @@
+﻿@model WebsiteGenZ.Models.ViewModels.RegisterViewModel
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="~/css/signup.css">
+    <script src="https://kit.fontawesome.com/385d797bd0.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="container">
+        <!-- Left Section with Background Image -->
+        <div class="left-section">
+            <img src="~/media/products/signup-background.jpg" alt="Background" class="background-image">
+        </div>
+
+        <!-- Right Section with Signup Form -->
+        <div class="right-section">
+            <div class="signup-form">
+                <h2>Create New Account <span>👋</span></h2>
+                <p>Please enter details</p>
+                <form asp-action="Register" asp-controller="Account" method="post">
+                    <label for="first-name" class="form-label">First Name</label>
+                    <input asp-for="FirstName" class="form-control" placeholder="Robert" />
+                    <span asp-validation-for="FirstName" class="text-danger"></span>
+
+                    <label for="last-name" class="form-label">Last Name</label>
+                    <input asp-for="LastName" class="form-control" placeholder="Fox" />
+                    <span asp-validation-for="LastName" class="text-danger"></span>
+
+                    <label for="email" class="form-label">Email Address</label>
+                    <input asp-for="Email" class="form-control" placeholder="robertfox@example.com" />
+                    <span asp-validation-for="Email" class="text-danger"></span>
+
+                    <label for="password" class="form-label">Password</label>
+                    <input asp-for="Password" class="form-control" placeholder="***********" />
+                    <span asp-validation-for="Password" class="text-danger"></span>
+
+                    <div class="form-options">
+                        <label class="terms-conditions">
+                            <input type="checkbox" name="terms" required>
+                            I agree to the <a href="#">Terms & Conditions</a>
+                        </label>
+                    </div>
+
+                    <button type="submit" class="signup-button">Signup</button>
+                </form>
+                <p class="login-redirect">Already have an account? 
+                    <a asp-action="Login" asp-controller="Account">Log in here</a>
+                </p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
